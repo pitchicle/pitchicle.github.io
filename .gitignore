@@ -4,3 +4,4 @@ _site
 
 .ruby-version
 _authors/makeAuthor.py
+_config.localhost.yml
