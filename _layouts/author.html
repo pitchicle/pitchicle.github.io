@@ -18,6 +18,18 @@ layout: default
     </div>
 </div>
 
+{% if content %}
+	<div id="status" class="container" style="background-color: {{ page.biocolor | default: '#FAFAFA'}};">
+		<br>
+		<div id="author-status">
+			<ul id="status-box">
+				{{ content }}
+			</ul>
+		</div>
+		<br>
+	</div>
+{% endif %}
+
 <div id="content" class="container">
     <div id="author-content" role="main">
         <ul id="post-list">
