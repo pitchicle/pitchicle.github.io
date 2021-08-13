@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: http://pitchicle.github.io/sitemap.xml
