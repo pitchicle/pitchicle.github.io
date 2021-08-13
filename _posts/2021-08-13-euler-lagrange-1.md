@@ -117,7 +117,7 @@ $$
 
 $$
 \begin{matrix}
-{\partial L \over \partial x} - {d\over dt}{\partial L \over \partial v} &=& {{\partial ({1\over2}mv^2-V)}\over \partial x}-{d\over dt}({{\partial ({1\over2}mv^2-V)}\over \partial v}) \\
+{\partial L \over \partial x} - {d\over dt}{\partial L \over \partial v} &=& { {\partial ({1\over2}mv^2-V)}\over \partial x}-{d\over dt}({ {\partial ({1\over2}mv^2-V)}\over \partial v}) \\
 &=& F - {d\over dt}(mv) \\
 &=& F-ma \\
 &=& 0 \\
