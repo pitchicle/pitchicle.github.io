@@ -77,7 +77,7 @@ $$
 라그랑주 역학에서는 계의 상태를 어떤 물체의 좌표와 속도를 이용하여 나타내기 때문에 라그랑지안은 좌표와 속도의 함수입니다. 즉 $L(t,x(t),x^\prime(t))$인 것이죠. ($x$는 좌표 위치, $x^\prime$은 속도입니다)그런데 이런 형태 어디서 많이 보지 않았나요? 바로 위에서 얘기한 f랑 똑같은 형태인 것이죠. 그럼 이제 위의 오일러 방정식에 $f=L$, $y=x$, $y'=x'$, $x=t$를 넣어서 정리해주면 
 $$
 \begin{matrix}
-{\partial L \over \partial x} - {d\over dt}{\partial L \over \partial v} &=& {{\partial ({1\over2}mv^2-V)}\over \partial x}-{d\over dt}({{\partial ({1\over2}mv^2-V)}\over \partial v}) \\
+{\partial L \over \partial x} - {d\over dt}{\partial L \over \partial v} &=& { {\partial ({1\over2}mv^2-V)}\over \partial x }-{d\over dt}({ {\partial ({1\over2}mv^2-V)}\over \partial v }) \\
 &=& F - {d\over dt}(mv) \\
 &=& F-ma \\
 &=& 0 \\
