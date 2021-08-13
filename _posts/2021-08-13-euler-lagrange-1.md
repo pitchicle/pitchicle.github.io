@@ -32,7 +32,7 @@ $$
 $$
 이제 $J$를 $\alpha$에 대해 편미분을 해줍시다. 이때 연쇄율을 이용하여 표현하면 다음과 같습니다. 
 $$
-{\partial J \over \partial \alpha} = \int_{x_1}^{x_2}\{{\partial f \over \partial x}{\partial x \over \partial \alpha}+{\partial f \over \partial y}{\partial y \over \partial \alpha}+{\partial f \over \partial y^\prime}{\partial y^\prime \over \partial \alpha}\}dx
+{\partial J \over \partial \alpha} = \int_{x_1}^{x_2}\{ {\partial f \over \partial x}{\partial x \over \partial \alpha}+{\partial f \over \partial y}{\partial y \over \partial \alpha}+{\partial f \over \partial y^\prime}{\partial y^\prime \over \partial \alpha} \}dx
 $$
 이제 이 식의 중괄호 내부에 있는 것을 풀어줍니다. $x$와 $\alpha$는 독립변수이기 때문에 첫번째 항은 소거되고 두번째 항과 세번째 항을 풀 수 있겠죠? 다른 변수들에 대한 $f$의 변화율은 $f$가 어떤 함수인지 모르니 그대로 남겨둡니다. 
 $$
