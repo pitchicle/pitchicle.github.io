@@ -22,6 +22,11 @@ $$
 
 
 
+$$
+y(\alpha,x) = y(0,x)+\alpha\eta(x)
+$$
+
+
 ![](https://user-images.githubusercontent.com/46587635/129293611-45b8907d-83d6-442d-a7b5-8f412a219282.png)
 
 
