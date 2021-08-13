@@ -42,11 +42,11 @@ $$
 $$
 이를 대입하여 정리하면
 $$
-{\partial J \over \partial \alpha} = \int_{x_1}^{x_2}\{{\partial f \over \partial y}\eta(x) + {\partial f \over \partial y^\prime}\eta^\prime(x)\}dx
+{\partial J \over \partial \alpha} = \int_{x_1}^{x_2}\{ {\partial f \over \partial y}\eta(x) + {\partial f \over \partial y^\prime}\eta^\prime(x) \}dx
 $$
 이고 여기서 부분적분을 이용합시다. 첫번째 항을 그대로 남겨두고 두번째 항을 부분적분해줍니다. 
 $$
-{\partial J \over \partial \alpha} = \int_{x_1}^{x_2}\{{\partial f \over \partial y}\eta(x) - {d\over dx}{\partial f \over \partial y^\prime}\eta(x)\}dx + [{\partial f \over \partial y^\prime}\eta(x)]_{x_1}^{x_2} \\
+{\partial J \over \partial \alpha} = \int_{x_1}^{x_2}\{ {\partial f \over \partial y}\eta(x) - {d\over dx}{\partial f \over \partial y^\prime}\eta(x) \}dx + [{\partial f \over \partial y^\prime}\eta(x)]_{x_1}^{x_2} \\
 \eta(x_1)=\eta(x_2)=0
 $$
 그러면 이와같이 되고 위의 $\eta$조건을이용하여 정리해주면 
