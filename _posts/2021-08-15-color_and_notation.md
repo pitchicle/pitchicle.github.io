@@ -1,7 +1,7 @@
 ---
 layout : post
 title : '컴퓨터는 색을 어떻게 표현할까? -RGB와 진수'
-author : hyubho.choi
+author : hyunho.choi
 comments : true
 date : 2021-08-15 22:15
 use_math : true
