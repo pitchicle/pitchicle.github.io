@@ -12,6 +12,8 @@ tags : [computer-science]
 
 빛의 삼원색은 R(빨강), G(초록), B(파랑)이다.
 
+![img](https://user-images.githubusercontent.com/54809044/129486969-0c4a84da-06ac-47a9-8820-cc87ec3854e9.png)
+
 그림에서도 알 수 있다시피 빛은 합성할 수록 밝아지고, 적절히 합성해 모든 색을 만들 수 있다.
 
 따라서 R,G,B 의 값(세기)를 알고 있으면 어떤 색을 표현할 수 있을 것이다.
@@ -234,14 +236,9 @@ CSS<sup>[[3]](#footnote3)</sup>에서는 다음과 같이도 표현한다.
 
 #### 예시
 
+![img](https://user-images.githubusercontent.com/54809044/129482726-46800db9-8f9f-42e6-a4aa-0e0e8c3e6f6e.png)
 
-
-| ![img](https://user-images.githubusercontent.com/54809044/129482726-46800db9-8f9f-42e6-a4aa-0e0e8c3e6f6e.png) | ![img](https://user-images.githubusercontent.com/54809044/129482737-cdf69f05-58ac-4485-b9bd-9ac027ab1486.png) | ![img](https://user-images.githubusercontent.com/54809044/129482765-d5dfb6c9-5942-4031-85f6-c7a9ee4cba05.png) | ![img](https://user-images.githubusercontent.com/54809044/129482782-0334a633-92e2-4fc1-abf9-4bf3164dcbac.png) |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-
-
-
-위 사진들은 아래 사이트를 통해 생성되었다.
+위 사진은 아래 사이트를 통해 생성되었다.
 
 https://encycolorpedia.kr/
 
