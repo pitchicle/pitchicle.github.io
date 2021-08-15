@@ -12,7 +12,7 @@ tags : [computer-science]
 
 빛의 삼원색은 R(빨강), G(초록), B(파랑)이다.
 
-![img](https://user-images.githubusercontent.com/54809044/129486969-0c4a84da-06ac-47a9-8820-cc87ec3854e9.png)
+![](https://user-images.githubusercontent.com/54809044/129486969-0c4a84da-06ac-47a9-8820-cc87ec3854e9.png)
 
 그림에서도 알 수 있다시피 빛은 합성할 수록 밝아지고, 적절히 합성해 모든 색을 만들 수 있다.
 
@@ -236,7 +236,7 @@ CSS<sup>[[3]](#footnote3)</sup>에서는 다음과 같이도 표현한다.
 
 #### 예시
 
-![img](https://user-images.githubusercontent.com/54809044/129482726-46800db9-8f9f-42e6-a4aa-0e0e8c3e6f6e.png)
+![](https://user-images.githubusercontent.com/54809044/129482726-46800db9-8f9f-42e6-a4aa-0e0e8c3e6f6e.png)
 
 위 사진은 아래 사이트를 통해 생성되었다.
 
