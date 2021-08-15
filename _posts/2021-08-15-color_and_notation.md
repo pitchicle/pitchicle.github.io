@@ -181,7 +181,7 @@ $$
 
 <br>
 
-10진수에서 다른 진수로의 변환은, 10진수를 바꾸고자 하는 진법(8진법이면 8)으로 몫이 0이 될때까지 반복해서 나누어 주고, 각각의 나머지를 낮은 자리부터 적어주면 된다.<sup>[[1]](#footnote_1)</sup><br>
+10진수에서 다른 진수로의 변환은, 10진수를 바꾸고자 하는 진법(8진법이면 8)으로 몫이 0이 될때까지 반복해서 나누어 주고, 각각의 나머지를 낮은 자리부터 적어주면 된다.<sup>[[1]](#footnote1)</sup><br>
 
 
 
@@ -233,7 +233,7 @@ RGB로 돌아가 보자.<br>
 
 <br>
 
-2. 헥스코드<sup>[[2]](footprint 2)</sup><br>
+2. 헥스코드<sup><a href="#footnote2">[2]</a></sup><br>
 
 
 
@@ -320,8 +320,8 @@ https://encycolorpedia.kr/<br>
 
 
 
-[1] 2의 제곱수 진법끼리는 더 간단한 방법이 있다. 이는 독자들이 생각해 보길 바란다. <br>
+<a name="footnote1">1</a> 2의 제곱수 진법끼리는 더 간단한 방법이 있다. 이는 독자들이 생각해 보길 바란다. <br>
 
-[2] hexadeca, 16을 뜻한다.<br>
+<a id="footnote2">2</a> : hexadeca, 16을 뜻한다.<br>
 
-[3] Cascading Style Sheets, 주로 HTML과 함께 디자인 등을 위해 사용된다. <br>
+<a name="footnote3">3</a> Cascading Style Sheets, 주로 HTML과 함께 디자인 등을 위해 사용된다. <br>
