@@ -18,7 +18,7 @@ tags : [computer-science]
 
 <사진1>
 
-https://pixabay.com/images/id-154782/<br>
+https://pixabay.com/images/id-154782<br>
 
 <br>
 
