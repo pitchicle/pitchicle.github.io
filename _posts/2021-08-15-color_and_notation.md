@@ -255,7 +255,7 @@ RGB로 돌아가 보자.<br>
 
 번외<br>
 
-CSS<sup>[[3]](footnote3)</sup>에서는 다음과 같이도 표현한다.<br>
+CSS<sup>[[3]](#footnote3)</sup>에서는 다음과 같이도 표현한다.<br>
 
 
 
