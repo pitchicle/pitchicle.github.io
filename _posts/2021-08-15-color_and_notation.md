@@ -14,7 +14,7 @@ tags : [computer-science]
 
 
 
-![](https://user-images.githubusercontent.com/54809044/129481124-8211b402-ade4-4b27-9694-8916f2f407ec.png)
+![img](https://user-images.githubusercontent.com/54809044/129481124-8211b402-ade4-4b27-9694-8916f2f407ec.png)
 
 <사진1>
 
@@ -297,7 +297,7 @@ CSS<sup>[[3]](#footnote3)</sup>에서는 다음과 같이도 표현한다.<br>
 
 
 
-| ![](https://user-images.githubusercontent.com/54809044/129482726-46800db9-8f9f-42e6-a4aa-0e0e8c3e6f6e.png) | ![](https://user-images.githubusercontent.com/54809044/129482737-cdf69f05-58ac-4485-b9bd-9ac027ab1486.png) | ![](https://user-images.githubusercontent.com/54809044/129482765-d5dfb6c9-5942-4031-85f6-c7a9ee4cba05.png) | ![](https://user-images.githubusercontent.com/54809044/129482782-0334a633-92e2-4fc1-abf9-4bf3164dcbac.png) |
+| ![img](https://user-images.githubusercontent.com/54809044/129482726-46800db9-8f9f-42e6-a4aa-0e0e8c3e6f6e.png) | ![img](https://user-images.githubusercontent.com/54809044/129482737-cdf69f05-58ac-4485-b9bd-9ac027ab1486.png) | ![img](https://user-images.githubusercontent.com/54809044/129482765-d5dfb6c9-5942-4031-85f6-c7a9ee4cba05.png) | ![img](https://user-images.githubusercontent.com/54809044/129482782-0334a633-92e2-4fc1-abf9-4bf3164dcbac.png) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 
 
