@@ -26,8 +26,6 @@ CBB는 Coomassie Brilliant Blue의 약자로, 단백질을 고정하는 데 사�
 
 CBB는 단백질의 아미노기, 카르복실기와 정전기적 인력으로 결합하여 단백질-염료 복합체(protein-dye complex)를 형성합니다. 생성된 단백질-염료 복합체는 파란색 계열의 음전하를 띠는 분자들이 산성 환경에서도 안정적으로 존재할 수 있도록 합니다.
 
-![]()![image-20210815000412603](C:\Users\정광혁\AppData\Roaming\Typora\typora-user-images\image-20210815000412603.png)
-
 **2. SDS-PAGE에서 CBB Staining**
 
 전기영동을 모두 마치고 나면 겔을 증류수로 세척(washing)한 다음 겔에 Staining Solution을 첨가하여 염색을 시작하게 됩니다. Staining Solution에는 메탄올(Methanol)과 아세트산(Acetic acid), 그리고 CBB-G250이 포함되어 있습니다.
