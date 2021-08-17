@@ -4,7 +4,7 @@ title: '정광혁'
 image: /files/authors/kwanghyuck.jung.png
 ---
 
-$0\in\mathbb{N}$
+$S=mathbb{ln}k$
 
 - Chungbuk Science High School 32th
 
