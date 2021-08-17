@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 소개
-image: /files/covers/openapi.png
+image: /files/covers/about_cover.png
 permalink: /about/
 sitemap: yes
 comments: true
@@ -10,7 +10,6 @@ tags: []
 ---
 
 > 무언가를 배운다는 행위는 그 자체로 평등해지기 위해서지.
->
 
 좋아하는 소설의 한 문장입니다. 어째서 배워야 하는가에 대한 가장 간결하고도 상징적인 문장이기 때문이지요. 따라서 배운다는 행위는 인간으로 살아가기 위해 보장되어야 할 가장 기본적인 권리 중 하나일 것입니다.
 
