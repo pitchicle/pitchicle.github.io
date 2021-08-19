@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 소개
-image: /files/covers/about_cover.png
+image: /files/covers/about_cover.jpg
 permalink: /about/
 sitemap: yes
 comments: true
