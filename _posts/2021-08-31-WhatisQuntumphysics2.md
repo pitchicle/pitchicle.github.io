@@ -6,7 +6,7 @@ comments: true
 date: 2021-08-31 17:15
 use_math: true
 tags: [physics]
-image:https://user-images.githubusercontent.com/82321028/131469578-547644f5-a43e-42a0-a84d-ad63ae910ab7.jpeg
+image: https://user-images.githubusercontent.com/82321028/131469578-547644f5-a43e-42a0-a84d-ad63ae910ab7.jpeg
 ---
 
 
