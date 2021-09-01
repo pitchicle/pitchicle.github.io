@@ -66,7 +66,7 @@ tags: [biology,chemistry,molecular-biology]
 
 ##### 	1. **An ACE2 Triple Decoy that** neutralizes SARS-CoV-2 shows enhanced affinity for virus variants (Scientific Reports, Shiho Tanaka 외) : 
 
-​	재조합 돌연변이 ACE2로 스파이크단백질의 RBD(S RBD)를 유인하는 방법에 대해 서술한 논문이다. 논문에서는 아래와 같은 야생형  ![image](https://user-images.githubusercontent.com/88145508/131499761-3870afac-6237-404e-8145-f6cca02870fb.png) 와   ![img](file:///C:\Users\정광혁\AppData\Local\Temp\DRW000040685ec7.gif)![image](https://user-images.githubusercontent.com/88145508/131499793-5ddf6dc8-2726-461f-b37e-86988615a330.png)  의 친화도(친화도는 개념적으로는 해리상수 ![image](https://user-images.githubusercontent.com/88145508/131499812-09a501e8-e0ab-414e-810e-dd996ba4efe2.png)와 연관된다.)를 측정한 후, S RBD에 대해 보다 높은 친화도를 갖는 T27Y와 H34A 돌연변이를 가진 ACE2를 제작하였다. 
+​	재조합 돌연변이 ACE2로 스파이크단백질의 RBD(S RBD)를 유인하는 방법에 대해 서술한 논문이다. 논문에서는 아래와 같은 야생형 $\text{ACE2-IgG}_1\text{F}_\text{c}$와 $\text{ACE2-IgAF}_\text{c}$의 친화도(친화도는 개념적으로는 해리상수 $K_D$와 연관된다.)를 측정한 후, S RBD에 대해 보다 높은 친화도를 갖는 T27Y와 H34A 돌연변이를 가진 ACE2를 제작하였다. 
 
 ![image](https://user-images.githubusercontent.com/88145508/131500121-e8e6902a-7440-4e31-9305-9412879cba45.png)		
 
