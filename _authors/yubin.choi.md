@@ -6,7 +6,7 @@ image: /files/authors/yubin.choi.png
 
 $0\in\mathbb{N}$
 
-- Pitchicle Site Manager (32기)
+- 32기 Pitchicle 사이트 관리자
 
-- EXE 32기 부장
+- 32기 EXE 부장
 
