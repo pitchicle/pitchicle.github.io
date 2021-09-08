@@ -12,18 +12,9 @@ tags:
 	{% for item in modiauthors %}
 	<div class="col-sm-6">
 		<div class="card">
-			<div class="card-body">
+			<div class="card-body" style="background-image:url(../{{ item.image }});background-size:cover;" onclick="location.href='{{ site.baseurl }}/authors/{{ item.name }}';">
 				<h2 class="card-title" style="margin:10px 0 0 0;">{{ item.title }}</h2>
 				<h6 class="card-subtitle mb-2 text-muted" style="margin-top:10px">{{ item.name }}</h6>
-				<p>
-				{% if item.content | strip %}
-				{{ item.content }}
-				{% else if item.content | strip == ""%}
-				No Comments Yet :(
-				{% else %}
-				{{ item.content }}
-				{% endif %}
-				</p>
 			</div>
 		</div>
 	</div>
