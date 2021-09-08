@@ -1,0 +1,31 @@
+---
+layout: page
+title: 팀원 소개
+permalink: /member/
+sitemap: yes
+excerpt: 팀원 소개
+tags:
+---
+<link rel="stylesheet" href="../assets/css/opensource.css">
+<div class="row">
+	{% assign modiauthors = site.authors | sort:'title' %}
+	{% for item in modiauthors %}
+	<div class="col-sm-6">
+		<div class="card">
+			<div class="card-body">
+				<h2 class="card-title" style="margin:10px 0 0 0;">{{ item.title }}</h2>
+				<h6 class="card-subtitle mb-2 text-muted" style="margin-top:10px">{{ item.name }}</h6>
+				<p>
+				{% if item.content | strip %}
+				{{ item.content }}
+				{% else if item.content | strip == ""%}
+				No Comments Yet :(
+				{% else %}
+				{{ item.content }}
+				{% endif %}
+				</p>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</div>
