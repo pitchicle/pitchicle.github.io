@@ -1,0 +1,22 @@
+---
+layout: page
+title: 부원 소개
+permalink: /authors/
+sitemap: yes
+excerpt: 부원 소개
+tags:
+---
+<link rel="stylesheet" href="../assets/css/opensource.css">
+<div class="row">
+	{% assign modiauthors = site.authors | sort:'title' %}
+	{% for item in modiauthors %}
+	<div class="col-sm-6">
+		<div class="card" style="background-image:url(../{{ item.image | default:'files/authors/default.jpg' }});background-position:center center;background-size:cover;overflow:hidden;margin:auto;" onclick="location.href='{{ site.baseurl }}/authors/{{ item.name }}';">
+			<div class="card-body">
+				<h2 class="card-title" style="margin:10px 0 0 0;background-color:#F0F0F060;">{{ item.title }}</h2>
+				<h6 class="card-subtitle mb-2 text-muted" style="margin-top:10px;background-color:#80808020;">{{ item.name }}</h6>
+			</div>
+		</div>
+	</div>
+	{% endfor %}
+</div>

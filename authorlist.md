@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Authors
-permalink: /authors/
+permalink: /authorlist/
 sitemap:
   priority: 0.7
 ---
