@@ -1,14 +1,12 @@
 ---
 layout: post
-title: '과유불급의 실사판 피타고라스의 컵! 그 원리는?'
+title: "과유불급의 실사판 피타고라스의 컵! 그 원리는?"
 author: yubin.choi
 comments: true
 date: 2021-09-14 11:30
 use_math: true
 tags: [physics]
 ---
-
-
 
 유좌지기는 사자성어로도 알려진 피타고라스의 컵, 혹은 계영배에 대해 알고 계신가요?
 

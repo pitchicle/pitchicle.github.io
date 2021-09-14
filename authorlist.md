@@ -13,9 +13,9 @@ image: /files/covers/authorpage_cover.jpeg
 {% assign modiauthors = group.items | sort: 'title' %}
 {% for author in modiauthors %}
 {% if author.rank %}
-* [{{author.title}} ({{ author.name }}) {{ author.rank }}]({{ site.baseurl }}/authors/{{ author.name }})
+* <span style="display: block;width: 60px;height: 60px;margin: 0 auto;border-radius: 100%;background: url({% if author.image %}{{author.image}}{% else %}../assets/images/pc/default_pic_s.png{% endif %}) no-repeat center;background-size: cover;"></span> [{{author.title}} ({{ author.name }}) {{ author.rank }}]({{ site.baseurl }}/authors/{{ author.name }})
 {% else %}
-* [{{author.title}} ({{ author.name }})]({{ site.baseurl }}/authors/{{ author.name }})
+* <span style="display: block;width: 60px;height: 60px;margin: 0 auto;border-radius: 100%;background: url({% if author.image %}{{author.image}}{% else %}../assets/images/pc/default_pic_s.png{% endif %}) no-repeat center;background-size: cover;"></span>[{{author.title}} ({{ author.name }})]({{ site.baseurl }}/authors/{{ author.name }})
 {% endif %}
 {% endfor %}
 {% endif %}
@@ -29,9 +29,9 @@ image: /files/covers/authorpage_cover.jpeg
 {% assign modiauthors = group.items | sort: 'title' %}
 {% for author in modiauthors %}
 {% if author.rank %}
-* [{{author.title}} ({{ author.name }}) {{ author.rank }}]({{ site.baseurl }}/authors/{{ author.name }})
+* <span style="display: block;width: 60px;height: 60px;margin: 0 auto;border-radius: 100%;background: url({% if author.image %}{{author.image}}{% else %}../assets/images/pc/default_pic_s.png{% endif %}) no-repeat center;background-size: cover;"></span>[{{author.title}} ({{ author.name }}) {{ author.rank }}]({{ site.baseurl }}/authors/{{ author.name }})
 {% else %}
-* [{{author.title}} ({{ author.name }})]({{ site.baseurl }}/authors/{{ author.name }})
+* <span style="display: block;width: 60px;height: 60px;margin: 0 auto;border-radius: 100%;background: url({% if author.image %}{{author.image}}{% else %}../assets/images/pc/default_pic_s.png{% endif %}) no-repeat center;background-size: cover;"></span>[{{author.title}} ({{ author.name }})]({{ site.baseurl }}/authors/{{ author.name }})
 {% endif %}
 {% endfor %}
 {% endfor %}

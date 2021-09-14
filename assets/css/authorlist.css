@@ -1,0 +1,44 @@
+.authorcard-container {
+  -ms-flex: 0 0 33%;
+  flex: 0 0 33%;
+  max-width: 33%;
+  position: relative;
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+}
+
+.authorcard {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .50rem;
+  height: 230px;
+}
+
+.authorcard:hover{ /* when mouse hover over pricing table */
+  transform: scale(1.05);
+  transition: all .5s;
+  z-index: 100;
+  box-shadow: 0 0 10px gray;
+}
+
+.authorcardprofile {
+	display: block;
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	border-radius: 100%;
+	overflow: hidden;
+	background: url(../images/pc/default_pic_s.png) no-repeat center;
+	background-size: cover;
+	outline: none;
+	box-shadow: 0 0 0 10px #00000010;
+}

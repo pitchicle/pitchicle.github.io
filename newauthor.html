@@ -1,0 +1,32 @@
+---
+layout: page
+title: 부원 소개
+permalink: /newauthor/
+sitemap: yes
+excerpt: 부원 소개
+tags: []
+image: /files/covers/authorpage_cover.jpeg
+---
+<link rel="stylesheet" href="../assets/css/opensource.css">
+<link rel="stylesheet" href="../assets/css/authorlist.css">
+
+{% assign modigroups = site.authors | group_by: 'order' %}
+{% assign priorOrder = "32,33" | split: "," %}
+
+{% for group in modigroups %}
+	{% if priorOrder contains group.name %}
+		<h3>{{ group.name }}기</h3>
+		<div class="row">
+		{% assign modiauthors = group.items | sort: 'title' %}
+		{% for author in modiauthors %}
+			<div class="authorcard-container">
+				<div class="authorcard" onclick="location.href='{{ site.baseurl }}/authors/{{ author.name }}';">
+					<br/>
+					<div class="authorcardprofile" {% if author.image %}style="background-image: url({{ author.image }});"{% endif %}></div>
+					<p>{{ author.title }} ({{ author.name }}) {{ author.rank | default:'' }}</p>
+				</div>
+			</div>
+		{% endfor %}
+		</div>
+	{% endif %}
+{% endfor %}
