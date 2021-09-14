@@ -8,16 +8,27 @@ tags: []
 image: /files/covers/authorpage_cover.jpeg
 ---
 <link rel="stylesheet" href="../assets/css/opensource.css">
-<div class="row">
-	{% assign modiauthors = site.authors | sort:'title' %}
-	{% for item in modiauthors %}
-	<div class="col-sm-6">
-		<div class="card" style="background-image:url(../{{ item.image | default:'files/authors/default.jpg' }});background-position:center center;background-size:cover;overflow:hidden;margin:auto;" onclick="location.href='{{ site.baseurl }}/authors/{{ item.name }}';">
-			<div class="card-body">
-				<h2 class="card-title" style="margin:10px 0 0 0;background-color:#F0F0F060;">{{ item.title }}</h2>
-				<h6 class="card-subtitle mb-2 text-muted" style="margin-top:10px;background-color:#80808020;">{{ item.name }}</h6>
+<link rel="stylesheet" href="../assets/css/authorlist.css">
+
+{% assign modigroups = site.authors | group_by: 'order' %}
+{% assign priorOrder = "32,33" | split: "," %}
+
+{% for group in modigroups %}
+	{% if priorOrder contains group.name %}
+		<h1>{{ group.name }}기</h1>
+		<div class="row">
+		{% assign modiauthors = group.items | sort: 'title' %}
+		{% for author in modiauthors %}
+			<div class="authorcard-container">
+				<div class="authorcard" onclick="location.href='{{ site.baseurl }}/authors/{{ author.name }}';">
+					<span style="background-color: #CAD5DF;box-shadow: 0 0 0 30px #CAD5DF;">
+					<br/>
+					<div class="authorcardprofile" {% if author.image %}style="background-image: url({{ author.image }});"{% endif %}></div>
+					</span>
+					<p style="margin-top:40px;">{{ author.title }} ({{ author.name }}) {{ author.rank | default:'' }}</p>
+				</div>
 			</div>
+		{% endfor %}
 		</div>
-	</div>
-	{% endfor %}
-</div>
+	{% endif %}
+{% endfor %}

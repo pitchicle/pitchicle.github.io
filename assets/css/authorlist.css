@@ -21,6 +21,7 @@
   border: 1px solid rgba(0,0,0,.125);
   border-radius: .50rem;
   height: 230px;
+  overflow: hidden;
 }
 
 .authorcard:hover{ /* when mouse hover over pricing table */
@@ -40,5 +41,5 @@
 	background: url(../images/pc/default_pic_s.png) no-repeat center;
 	background-size: cover;
 	outline: none;
-	box-shadow: 0 0 0 10px #00000010;
+	box-shadow: 0 0 0 10px #FFFFFF20;
 }
