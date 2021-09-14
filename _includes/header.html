@@ -18,7 +18,7 @@
 		{% assign psliced = page.url | slice:0,{{sliceLimit}} %}
         <li class="{% if page.url == '/' %} active {% endif %}"><a href="{{ base_path }}/">블로그</a></li>
         <li class="{% if page.url == '/about/' %} active {% endif %}"><a href="{{ base_path }}/about/">동아리 소개</a></li>
-		<li class="{% if psliced == '/authors/' %} active {% endif %}"><a href="{{ base_path }}/authors/">저자 소개</a></li>
+		<li class="{% if psliced == '/authors/' %} active {% endif %}"><a href="{{ base_path }}/authors/">부원 소개</a></li>
         <li class="{% if page.url == '/tags/' %} active {% endif %}"><a href="{{ base_path }}/tags/">태그</a></li>
     </ul>
 </div>
