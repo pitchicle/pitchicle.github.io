@@ -56,9 +56,12 @@ tags: [physics]
 
 ### 참고자료
 
-- Periodic Videos - Pythagoras Cup (Greedy Cup) filled with Mercury (https://www.youtube.com/watch?v=ISfIT3B4y6E)
+- Periodic Videos - Pythagoras Cup (Greedy Cup) filled with Mercury
+  ([https://www.youtube.com/watch?v=ISfIT3B4y6E](https://www.youtube.com/watch?v=ISfIT3B4y6E))
 
-- 영문 위키백과 - Pythagoras Greedy Tantalus cup 이미지([https://ko.wikipedia.org/wiki/%EA%B3%84%EC%98%81%EB%B0%B0#/media/%ED%8C%8C%EC%9D%BC:Physagorian_Pythagoras_Greedy_Tantalus_cup_05.svg](https://ko.wikipedia.org/wiki/계영배#/media/파일:Physagorian_Pythagoras_Greedy_Tantalus_cup_05.svg))
+- 영문 위키백과 - Pythagoras Greedy Tantalus cup 이미지
+  ([https://ko.wikipedia.org/wiki/%EA%B3%84%EC%98%81%EB%B0%B0#/media/%ED%8C%8C%EC%9D%BC:...](https://ko.wikipedia.org/wiki/계영배#/media/파일:Physagorian_Pythagoras_Greedy_Tantalus_cup_05.svg))
 
-- 공돌이 용달 - 피타고라스가 발명한 이상한 컵에 물을 따르면 일어나는 일.... (https://www.youtube.com/watch?v=1GaPTYEdrQY&t=179s)
+- 공돌이 용달 - 피타고라스가 발명한 이상한 컵에 물을 따르면 일어나는 일....
+  ([https://www.youtube.com/watch?v=1GaPTYEdrQY&t=179s](https://www.youtube.com/watch?v=1GaPTYEdrQY&t=179s))
 
