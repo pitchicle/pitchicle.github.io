@@ -1,6 +1,6 @@
 ---
 layout: post
-title : '그래서 양자역학이 뭔데? -1편'
+title : '그래서 양자역학이 뭔데? -2편'
 author: yeonwoo.bae
 comments: true
 date: 2021-08-31 17:40
