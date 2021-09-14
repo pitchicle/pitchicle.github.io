@@ -1,6 +1,7 @@
 ---
 name: kwanghyuck.jung
 title: '정광혁'
+order: 32
 image: /files/authors/kwanghyuck.jung.jpg
 ---
 
