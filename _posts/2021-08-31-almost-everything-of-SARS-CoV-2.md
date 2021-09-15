@@ -66,7 +66,7 @@ tags: [biology,chemistry,molecular-biology]
 
 ##### 	1. **An ACE2 Triple Decoy that** neutralizes SARS-CoV-2 shows enhanced affinity for virus variants (Scientific Reports, Shiho Tanaka 외) : 
 
-​	재조합 돌연변이 ACE2로 스파이크단백질의 RBD(S RBD)를 유인하는 방법에 대해 서술한 논문이다. 논문에서는 아래와 같은 야생형 $\text{ACE2-IgG}_1\text{F}_\text{c}$와 $\text{ACE2-IgAF}_\text{c}$의 친화도(친화도는 개념적으로는 해리상수 $K_D$와 연관된다.)를 측정한 후, S RBD에 대해 보다 높은 친화도를 갖는 T27Y와 H34A 돌연변이를 가진 ACE2를 제작하였다. 
+​	재조합 돌연변이 ACE2로 스파이크단백질의 RBD(S RBD)를 유인하는 방법에 대해 서술한 논문이다. 논문에서는 아래와 같은 야생형 ACE2-IgG1Fc와 ACE2-IgAFc의 친화도(친화도는 개념적으로는 해리상수 Kd와 연관된다.)를 측정한 후, S RBD에 대해 보다 높은 친화도를 갖는 T27Y와 H34A 돌연변이를 가진 ACE2를 제작하였다. 
 
 ![image](https://user-images.githubusercontent.com/88145508/133364262-2eb6ae15-0b91-4af6-8799-4267b8223537.png)
 
