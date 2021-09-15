@@ -54,7 +54,7 @@ tags: [biology,chemistry,molecular-biology]
 
 ​	RNA가 복제될 때는 음성 가닥 RNA가 생성되는데, 이는 gRNA의 반대쪽 가닥을 말한다. RdRp는 음성가닥 RNA를 주형으로 해 양성가닥 RNA(gRNA)를 대량으로 생산하며, 이로 인해 수많은 양의 자손 gRNA가 만들어질 수 있다. 아래는 코로나바이러스에 의해 감염이 일어나는 과정을 나타낸 모식도이다.
 
-![image](https://user-images.githubusercontent.com/88145508/133364248-aff5db3e-007a-4685-9cbd-83f3d47a2c3e.png)
+![image](https://user-images.githubusercontent.com/88145508/133364252-875d4042-6bdc-4c8b-ab19-25b333d29664.png)
 
 #### 6. SARS-CoV-2와 면역 기전
 
@@ -68,23 +68,23 @@ tags: [biology,chemistry,molecular-biology]
 
 ​	재조합 돌연변이 ACE2로 스파이크단백질의 RBD(S RBD)를 유인하는 방법에 대해 서술한 논문이다. 논문에서는 아래와 같은 야생형 $\text{ACE2-IgG}_1\text{F}_\text{c}$와 $\text{ACE2-IgAF}_\text{c}$의 친화도(친화도는 개념적으로는 해리상수 $K_D$와 연관된다.)를 측정한 후, S RBD에 대해 보다 높은 친화도를 갖는 T27Y와 H34A 돌연변이를 가진 ACE2를 제작하였다. 
 
-![image](https://user-images.githubusercontent.com/88145508/133364252-875d4042-6bdc-4c8b-ab19-25b333d29664.png)	
+![image](https://user-images.githubusercontent.com/88145508/133364262-2eb6ae15-0b91-4af6-8799-4267b8223537.png)
 
 ​	논문에서는 이를 MD(Molecular Dynamics) 시뮬레이션으로 예측하였으며 그 모식도는 아래와 같다. 논문에 의하면 해당 돌연변이는 SARA-CoV-2를 중화(neutralize)시키는 데 성공하였다. 이 연구는 T27Y, H34A 등 돌연변이를 사용해 ACE2 재조합의 S RBD 친화도를 연구한 첫 번째 논문이다. [2]
 
-![image](https://user-images.githubusercontent.com/88145508/133364262-2eb6ae15-0b91-4af6-8799-4267b8223537.png)
+![image](https://user-images.githubusercontent.com/88145508/133364264-323bb567-2251-4da0-8acb-fb738702fc27.png)
 
 ###### 2. SARS-CoV-2: Structure, Biology, and Structure-Based Therautics Development (Mei-Yue Wang 외, frontiers in Cellular and Infection Microbiology) :
 
 ​	이 Review 논문을 통해 아래 그림과 같이 제시된 ACE2 수용체(청)와 RBD(녹)의 결합 과정을 확인할 수 있다. 그림에서 볼 수 있듯 Q493과 E35 간의 수소 결합, D30과 K417 간의 Salt-bridge(염다리) 결합이 매개되어 결합이 형성된다. [3]
 
-![image](https://user-images.githubusercontent.com/88145508/133364264-323bb567-2251-4da0-8acb-fb738702fc27.png)
+![image](https://user-images.githubusercontent.com/88145508/133364268-3e5f209c-ca22-4451-81cc-454f89e761d3.png)
 
 ###### 3. Cross-species recognition of SARS-CoV-2 to bat ACE2 **(**Kefang Liu 외, Nov 2020) : 
 
 ​	논문에서는 SARS-CoV-2가 어떻게 종을 뛰어넘어서 감염될 수 있는지를 설명한다. SARS-CoV-2가 박쥐를 감염시킬 수 있는 가능성은 있어왔으나 그 분자적 기작은 설명되지 않았는데, 이 논문에서는 SARS-CoV-2가 인간의 ACE2 수용체(hACE2)보다 낮은 친화도로 박쥐의 ACE2 수용체 (bACE2-Rm)과 결합함을 보였다. 
 
-![image](https://user-images.githubusercontent.com/88145508/133364268-3e5f209c-ca22-4451-81cc-454f89e761d3.png)
+![image](https://user-images.githubusercontent.com/88145508/133364275-daade76e-1047-4dda-8a1f-430ea28b7ae3.png)
 
 ​	bACE2와 RBD의 결합 구조는 hACE의 결합 구조와 유사하였으며, 둘의 결합을 비교한 그림은 왼쪽 그림과 같다. 오른쪽 위의 그림은 왼쪽부터 순서대로 bACE2와 hACE2에서 RBD과 결합 시 사용되는 구역을 나타낸 것이고, 왼쪽의 그림은 bACE2(청)과 hACE2(자)에서 RBD와 수소 결합을 형성하는 부위를 나타냈다. [4]
 
@@ -92,7 +92,7 @@ tags: [biology,chemistry,molecular-biology]
 
 ​	이 논문에서는 soluble ACE2(sACE2)를 매개한 SARS-CoV-2의 세포 출입에 대해 연구하였다. 논문에 의하면 ACE2 receptor는 SARS-CoV-2의 수용체인 동시에 Renin- Aldosterone-Angiotensin계 (혈압, 세포외액의 부피를 조절하는 내분비계로 RAAS라고도 불림)의 중요한 조절자로 기능한다. 논문에서는 스파이크 단백질과 sACE2의 complex, 그리고 sACE2-스파이크단백질-바소프레신(항이뇨호르몬) complex가 AVPR1B 수용체와 AT1 수용체를 통해 세포내섭취 작용이 발생할 수 있음을 밝혔다. 이는 이후에 감염으로 이어질 수 있다. 아래의 그림은 그 모식도이다. [5]
 
-![image](https://user-images.githubusercontent.com/88145508/133364275-daade76e-1047-4dda-8a1f-430ea28b7ae3.png)
+![image](https://user-images.githubusercontent.com/88145508/133364281-6dd03814-a051-4f7a-995b-ae7e71dc42af.png)
 
 #### 8. SARS-CoV-2에 관한 추가 연구들 : Main protease를 중심으로
 
