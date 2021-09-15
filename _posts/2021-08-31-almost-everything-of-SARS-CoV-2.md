@@ -31,7 +31,7 @@ tags: [biology,chemistry,molecular-biology]
 #### 4. SARS-CoV-2의 구조
 
 ​	SARS-CoV-2는 다음과 같은 구조로 구성된다. 외부에는 **스파이크 당단백질**(S)**과 **막단백질(M), 내부에는 **뉴클레오캡시드 단백질(N)**과 **Envelope 당단백질(E)** 이 존재한다. 뉴클레오캡시드 단백질은 노란색 선으로 표시된 핵산을 감싸고 있다. 
-   ![image](https://user-images.githubusercontent.com/88145508/133364212-2fd04aef-a37e-4acd-804d-ff84b36da072.png)
+   ![그림1](https://user-images.githubusercontent.com/88145508/133364212-2fd04aef-a37e-4acd-804d-ff84b36da072.png)
 ​	SARS-CoV-2는 그림에는 표시되지 않았지만 4개의 ORF(Open Reading Frame; 단백질로 전사가 가능한 mRNA의 영역의 개수)를 가지며 이는 27개의 단백질을 암호화한다. 여기서 첫 번째 ORF를 구성하는 ORF1a와 ORF1b는 전체 바이러스 유전자의 70% 가량을 차지하며 15개의 nsp 부위를 포함한다.
 
 ​   ![image](https://user-images.githubusercontent.com/88145508/133364236-a7778e04-318d-492e-9196-625a710afefa.png)
