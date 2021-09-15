@@ -116,20 +116,20 @@ tags: [biology,chemistry,molecular-biology]
 
 ​	논문에서는 main protease의 X-선 결정 구조를 밝히고 main protease와 alpha-ketoamide  저해제의 결합 구조를 밝혔다. 또 해당 논문에서는 결정 구조를 기반으로 main protease의 잠재적인 저해제가 될 수 있는 물질의 구조에 대해 추가로 연구하였다. 아래는 main protease의 결정 구조로, 두 개의 프로모터(RNA 합성효소)가 각각 하늘색, 오렌지색으로 표시되어 있다. 또 이 촉매의 활성 자리(active site)인 Cys[145]와 His[41] 이 표시되어 있다. [9]   
 
-![image](https://user-images.githubusercontent.com/88145508/133364305-2aab0ebb-1fc4-4b45-8ecf-d55aae530da8.png)
+![image](https://user-images.githubusercontent.com/88145508/133364309-b08f0273-0c4b-4e4e-a492-b71962f42dbb.png)
 
 ###### **3. Revealing the molecular mechanisms of proteolysis of SARS-CoV-2 M pro by QM/MM computational methods** (Chem Sci., Katarzyna Swiderek 외) :
 
 ​	논문의 연구자들은 QM/MM이라는 분자 시뮬레이션 기법을 사용하여  Main protease에 의한 단백질의 분해 과정(proteolysis)이 어떤 메커니즘으로 발생하는지를 분석하였다. QM/MM 기법이란 Quantum Mechanics/Molecular Mechanics의 약자로, QM 기법의 정확성과 MM 기법의 빠른 계산 속도라는 장점을 결합한 시뮬레이션 방법이다. 연구자들은 아래 그림과 같은 6개의 아미노산 서열을 기질로 하는 반응의 반응 메커니즘과 자유 에너지 도표를 얻어내었다. [10]
-![image](https://user-images.githubusercontent.com/88145508/133364309-b08f0273-0c4b-4e4e-a492-b71962f42dbb.png)
+![image](https://user-images.githubusercontent.com/88145508/133364319-cf088d4a-9ded-4897-89cc-117d38a748b3.png)
 
 ​	위 그림은 Main protease에 의한 전체 반응을 나타낸 것이다.
 
-![image](https://user-images.githubusercontent.com/88145508/133364319-cf088d4a-9ded-4897-89cc-117d38a748b3.png)
+![image](https://user-images.githubusercontent.com/88145508/133364325-259d4604-d023-4d7c-b30f-7659de3be146.png)
 
 ​	위의 그림은 기질의 반응 메커니즘을 나타낸 것이다. His[41]과 Cys[145] 간에 수소 원자가 이동하면서 반응이 발생함을 확인할 수 있다. 또 기질인 ACC-Gln-Leu-Lys-Val-ACE가 ACC와 Gln-Leu-Lys-Val-ACE로 분리됨을 확인할 수 있다. 해당 반응에 대한 자유 에너지 도표는 다음과 같다.
 
-![image](https://user-images.githubusercontent.com/88145508/133364325-259d4604-d023-4d7c-b30f-7659de3be146.png)
+![image](https://user-images.githubusercontent.com/88145508/133364332-716e4900-2b48-408b-b7f0-f780283ede97.png)
 
 ​	위 그림을 바탕으로 각 단계의 안정성이 어떻게 되는지를 예상해볼 수 있었다.
 
@@ -139,11 +139,11 @@ tags: [biology,chemistry,molecular-biology]
 
 ​	Review 논문으로 nsp들의 다양한 구체적인 역할에 대해 소개한다. 눈에 띄는 것을 소개하자면 protease인 nsp이다. Main protease와는 다른 종류의 단백질 분해효소인 nsp3는 Cys-His-Asp 의 촉매 잔기를 가져서 단백질의 분해를 촉진한다. 촉매의 화학적 기전은 아래 그림과 같다.
 
-![image](https://user-images.githubusercontent.com/88145508/133364332-716e4900-2b48-408b-b7f0-f780283ede97.png)
+![image](https://user-images.githubusercontent.com/88145508/133364336-c9177c95-a033-4a27-bb19-e35869fb0c60.png)
 
 ​	또 이 논문을 통해 아래와 같은 RdRp의 역할과 기능에 대해 알아보았다. RdRp는 RNA-dependent RNA polymerase로 두 nsp8과 nsp12, nsp7로 구성된다. 이때 두 nsp8이 RNA와 상호작용하는 부위로 추정된다. 추가로 RdRp와 함께 렘데시비르(후술)가 RNA의 합성을 방해하는 구체적인 기전에 대해 파악할 수 있었다. 그 모식도는 아래 그림과 같다. 렘데시비르를 첨가하여 생성되는 RTP가 첨가되면, RdRp는 합성이 끝나기 전까지 3개의 뉴클레오타이드만을 더 추가할 수 있다. [11]
 
-![image](https://user-images.githubusercontent.com/88145508/133364336-c9177c95-a033-4a27-bb19-e35869fb0c60.png)
+![image](https://user-images.githubusercontent.com/88145508/133364341-25544e6f-26cf-4a35-8f28-161a0afffaa4.png)
 
 ​	위 그림은 렘데시비르에 의한 RdRp의 저해 기전이다.
 
@@ -151,7 +151,7 @@ tags: [biology,chemistry,molecular-biology]
 
 ​	본 논문에서는 Zn이 RdRp와 Main protease와의 상호작용을 분자 모델링(molecular modeling)을 통해 분석하였다. Zn은 다양한 단백질에 결합하여 그것의 활성을 조절하고, 일부 경우에는 바이러스에 대한 감염을 조절한다. 논문에서는 분자 모델링을 통해 RdRp와 Main protease에서 Zn에 대한 결합부위가 SARS-CoV-2와 SARS-CoV-1에서 같음을 보였다. 논문에서는 Zn 활성은 SARS-CoV-2 내의 효소 활성에 영향을 미칠 수 있으므로 Zn이 코로나19에 대한 감염 과정을 개선할 수 있을 것으로 예상하였다. 다음 그림은 SARS-CoV-1(분홍)과 SARS-CoV-2(청)에서의 Zn 원자 주변의 결합을 비교한 것이다. [12]
 
-![image](https://user-images.githubusercontent.com/88145508/133364341-25544e6f-26cf-4a35-8f28-161a0afffaa4.png)
+![image](https://user-images.githubusercontent.com/88145508/133364355-09c4ac49-254a-4325-bda4-b755605c9519.png)
 
 #### 10. SARS-Cov-2에 대한 다양한 백신, 저해제 및 제안된 치료 방법
 
@@ -159,7 +159,7 @@ tags: [biology,chemistry,molecular-biology]
 
 ​	미국의 제약사 모더나가 개발한 백신으로, ‘가짜 스파이크단백질’을 만드는 방법이다. mRNA-1273 백신은 스파이크단백질의 유전 정보를 담은 mRNA를 주사하여 스파이크단백질이 우리 몸에서 스스로 생성되도록 한다. 
 
-![image](https://user-images.githubusercontent.com/88145508/133364355-09c4ac49-254a-4325-bda4-b755605c9519.png)
+![image](https://user-images.githubusercontent.com/88145508/133364360-9c46f685-8d13-453b-b108-2d2757204f1c.png)
 
 ###### 2. 재조합 ACE2
 
@@ -169,7 +169,7 @@ tags: [biology,chemistry,molecular-biology]
 
 ​	대표적인 유전자가위 기술로는 CRISPR-Cas9이 알려져 있다. Cas9 단백질이 dsDNA를 절단한다면, Cas13은 ssRNA를 절단한다는 특징이 있다. 책 「코로나 사이언스」에 의하면, IBS 연구진들은 작년 12월 기준으로 아데노부속바이러스(AAV)를 벡터로 이용해 내부에 든 Cas13 유전자를 전사하여 SARS-CoV-2를 치료할 수 있는 방법을 계획하였다. 이때 가이드 RNA는 바이러스성 genomic RNA(gRNA)를 탐지하는 역할을 수행한다.
 
-![image](https://user-images.githubusercontent.com/88145508/133364360-9c46f685-8d13-453b-b108-2d2757204f1c.png)
+![image](https://user-images.githubusercontent.com/88145508/133364363-76eb2a6f-1ae5-4886-abb6-3f7c1b880ca6.png)
 
 ​	위 그림은 유전자가위 Cas9와 Cas13의 모식도이다. 
 
