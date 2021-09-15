@@ -7,13 +7,18 @@ excerpt: 부원 소개
 tags: []
 image: /files/covers/authorpage_cover.jpeg
 ---
-<link rel="stylesheet" href="../assets/css/opensource.css">
+
 <link rel="stylesheet" href="../assets/css/authorlist.css">
 
-{% assign modigroups = site.authors | group_by: 'order' %}
+<!--
+authorgroups: groupified authors by their order
+priorOrder: the order that be displayed first
+-->
+{% assign authorgroups = site.authors | group_by: 'order' %}
 {% assign priorOrder = "32,33" | split: "," %}
 
-{% for group in modigroups %}
+<!-- Prior Groups -->
+{% for group in authorgroups %}
 	{% if priorOrder contains group.name %}
 		<h1>{{ group.name }}기</h1>
 		<div class="row">
@@ -25,7 +30,32 @@ image: /files/covers/authorpage_cover.jpeg
 					<br/>
 					<div class="authorcardprofile" {% if author.image %}style="background-image: url({{ author.image }});"{% endif %}></div>
 					</span>
-					<p style="margin-top:40px;">{{ author.title }} ({{ author.name }}) {{ author.rank | default:'' }}</p>
+					<p style="margin-top:40px;">{{ author.title }} ({{ author.name }}) {{ author.class | default:'' }}</p>
+				</div>
+			</div>
+		{% endfor %}
+		</div>
+	{% else %}
+		{% continue %}
+	{% endif %}
+{% endfor %}
+
+<!-- non-Prior Groups -->
+{% for group in authorgroups %}
+	{% if priorOrder contains group.name %}
+		{% continue %}
+	{% else %}
+		<h1>{{ group.name }}기</h1>
+		<div class="row">
+		{% assign modiauthors = group.items | sort: 'title' %}
+		{% for author in modiauthors %}
+			<div class="authorcard-container">
+				<div class="authorcard" onclick="location.href='{{ site.baseurl }}/authors/{{ author.name }}';">
+					<span style="background-color: #CAD5DF;box-shadow: 0 0 0 30px #CAD5DF;">
+					<br/>
+					<div class="authorcardprofile" {% if author.image %}style="background-image: url({{ author.image }});"{% endif %}></div>
+					</span>
+					<p style="margin-top:40px;">{{ author.title }} ({{ author.name }}) {{ author.class | default:'' }}</p>
 				</div>
 			</div>
 		{% endfor %}

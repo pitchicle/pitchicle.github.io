@@ -3,6 +3,7 @@ name: yubin.choi
 title: '최유빈'
 order: 32
 image: /files/authors/yubin.choi.png
+class: '🖥️'
 ---
 
 $0\in\mathbb{N}$

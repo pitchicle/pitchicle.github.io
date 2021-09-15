@@ -2,7 +2,7 @@
 name: yeonwoo.bae
 title: '배연우'
 order: 32
-rank: '⭐'
+class: '⭐'
 image: /files/authors/yeonwoo.bae.jpg
 ---
 
