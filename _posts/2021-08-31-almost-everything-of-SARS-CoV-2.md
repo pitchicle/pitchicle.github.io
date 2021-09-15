@@ -34,7 +34,7 @@ tags: [biology,chemistry,molecular-biology]
    ![image](https://user-images.githubusercontent.com/88145508/133364212-2fd04aef-a37e-4acd-804d-ff84b36da072.png)
 ​	SARS-CoV-2는 그림에는 표시되지 않았지만 4개의 ORF(Open Reading Frame; 단백질로 전사가 가능한 mRNA의 영역의 개수)를 가지며 이는 27개의 단백질을 암호화한다. 여기서 첫 번째 ORF를 구성하는 ORF1a와 ORF1b는 전체 바이러스 유전자의 70% 가량을 차지하며 15개의 nsp 부위를 포함한다.
 
-​  ![image](https://user-images.githubusercontent.com/88145508/133364347-f47fa98a-2ea7-4fe7-80fd-ce3c533b671a.png)
+​   ![image](https://user-images.githubusercontent.com/88145508/133364236-a7778e04-318d-492e-9196-625a710afefa.png)
 
 ​	위 그림은 SARS-CoV-2의 게놈(유전제; genome; gDNA)과 nsp(비구조단백질; nonstructural protein)들의 종류와 역할을 나타낸 것이다. 
 
@@ -44,7 +44,7 @@ tags: [biology,chemistry,molecular-biology]
 
 #### 5. SARS-CoV-2의 감염 기전
 
-![image](https://user-images.githubusercontent.com/88145508/133364236-a7778e04-318d-492e-9196-625a710afefa.png)
+![image](https://user-images.githubusercontent.com/88145508/133364248-aff5db3e-007a-4685-9cbd-83f3d47a2c3e.png)
 
 ​	위 그림은 제 2형 폐포세포에 의한 코로나19 감염을 나타낸 그림이다.
 
