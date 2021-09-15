@@ -5,7 +5,7 @@ order: 32
 image: /files/authors/kwanghyuck.jung.jpg
 ---
 
-$S= \ln k$
+$S= k \ln W$
 
 - Chungbuk Science High School 32th
 
