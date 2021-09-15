@@ -143,7 +143,7 @@ tags: [biology,chemistry,molecular-biology]
 
 ​	또 이 논문을 통해 아래와 같은 RdRp의 역할과 기능에 대해 알아보았다. RdRp는 RNA-dependent RNA polymerase로 두 nsp8과 nsp12, nsp7로 구성된다. 이때 두 nsp8이 RNA와 상호작용하는 부위로 추정된다. 추가로 RdRp와 함께 렘데시비르(후술)가 RNA의 합성을 방해하는 구체적인 기전에 대해 파악할 수 있었다. 그 모식도는 아래 그림과 같다. 렘데시비르를 첨가하여 생성되는 RTP가 첨가되면, RdRp는 합성이 끝나기 전까지 3개의 뉴클레오타이드만을 더 추가할 수 있다. [11]
 
-![image](https://user-images.githubusercontent.com/88145508/133364341-25544e6f-26cf-4a35-8f28-161a0afffaa4.png)
+![그림19](https://user-images.githubusercontent.com/88145508/133420098-28f349ef-dbb1-4e86-a931-c1d6cde9cd11.png)
 
 ​	위 그림은 렘데시비르에 의한 RdRp의 저해 기전이다.
 
@@ -151,7 +151,7 @@ tags: [biology,chemistry,molecular-biology]
 
 ​	본 논문에서는 Zn이 RdRp와 Main protease와의 상호작용을 분자 모델링(molecular modeling)을 통해 분석하였다. Zn은 다양한 단백질에 결합하여 그것의 활성을 조절하고, 일부 경우에는 바이러스에 대한 감염을 조절한다. 논문에서는 분자 모델링을 통해 RdRp와 Main protease에서 Zn에 대한 결합부위가 SARS-CoV-2와 SARS-CoV-1에서 같음을 보였다. 논문에서는 Zn 활성은 SARS-CoV-2 내의 효소 활성에 영향을 미칠 수 있으므로 Zn이 코로나19에 대한 감염 과정을 개선할 수 있을 것으로 예상하였다. 다음 그림은 SARS-CoV-1(분홍)과 SARS-CoV-2(청)에서의 Zn 원자 주변의 결합을 비교한 것이다. [12]
 
-![image](https://user-images.githubusercontent.com/88145508/133364355-09c4ac49-254a-4325-bda4-b755605c9519.png)
+![image20](https://user-images.githubusercontent.com/88145508/133420171-b7b027d0-f09d-49dd-be95-b807c6698771.png)
 
 #### 10. SARS-Cov-2에 대한 다양한 백신, 저해제 및 제안된 치료 방법
 
@@ -159,7 +159,7 @@ tags: [biology,chemistry,molecular-biology]
 
 ​	미국의 제약사 모더나가 개발한 백신으로, ‘가짜 스파이크단백질’을 만드는 방법이다. mRNA-1273 백신은 스파이크단백질의 유전 정보를 담은 mRNA를 주사하여 스파이크단백질이 우리 몸에서 스스로 생성되도록 한다. 
 
-![image](https://user-images.githubusercontent.com/88145508/133364360-9c46f685-8d13-453b-b108-2d2757204f1c.png)
+![image21](https://user-images.githubusercontent.com/88145508/133420199-ea821a22-5f45-44a4-ac59-6e29474ae932.png)
 
 ###### 2. 재조합 ACE2
 
@@ -169,21 +169,21 @@ tags: [biology,chemistry,molecular-biology]
 
 ​	대표적인 유전자가위 기술로는 CRISPR-Cas9이 알려져 있다. Cas9 단백질이 dsDNA를 절단한다면, Cas13은 ssRNA를 절단한다는 특징이 있다. 책 「코로나 사이언스」에 의하면, IBS 연구진들은 작년 12월 기준으로 아데노부속바이러스(AAV)를 벡터로 이용해 내부에 든 Cas13 유전자를 전사하여 SARS-CoV-2를 치료할 수 있는 방법을 계획하였다. 이때 가이드 RNA는 바이러스성 genomic RNA(gRNA)를 탐지하는 역할을 수행한다.
 
-![image](https://user-images.githubusercontent.com/88145508/133364363-76eb2a6f-1ae5-4886-abb6-3f7c1b880ca6.png)
+![image22](https://user-images.githubusercontent.com/88145508/133420211-a219e5c8-c69d-4ee5-83c2-cd6db36d31e3.png)
 
 ​	위 그림은 유전자가위 Cas9와 Cas13의 모식도이다. 
 
 ​	Cas13은 코로나바이러스를 진단하는 데에도 사용된다. 논문(Amplification-free detection of SARS-CoV-2 with CRISPR-Cas13a and mobile phone microscopy)이 그 사례로써, 그 모식도는 아래와 같다. 논문에서는 Cas13a-crRNA가 RNP(Ribonucleoprotein)를 형성하는데, 이는 아직 형광을 띠지 않는 Reporter RNA 가닥을 형성한다. 그 후에는 HEPN nuclease 활성이 일어나 Reporter RNA가 잘리고, 그 결과 형광이 발생하게 된다. 이후에 밑에 있는 모식도와 같이 형광의 세기를 분석하면 SARS-Cov-2의 양에 대한 정량적 정보를 얻을 수 있고, 논문에서는 이를 확장해 이동 가능한 장치 (예컨대 스마트폰)에 적용하여 진단 키트를 제작하였다. [14]
 
-​	![image](https://user-images.githubusercontent.com/88145508/133364363-76eb2a6f-1ae5-4886-abb6-3f7c1b880ca6.png)
+![image23](https://user-images.githubusercontent.com/88145508/133420290-84a5f0a1-ebc8-400c-ae0a-cbd15a15f2c9.png)
 
-![image](https://user-images.githubusercontent.com/88145508/133364363-76eb2a6f-1ae5-4886-abb6-3f7c1b880ca6.png)
+![image24](https://user-images.githubusercontent.com/88145508/133420302-26569b74-3a81-48eb-b68a-a9162f8dba80.png)
 
 ###### 4. 렘데시비르
 
 ​	렘데시비르(Remdesivir)는 미국의 제약회사 길리어드에서 개발한 것으로 ATP 핵산과 형태가 유사해 RdRp(RNA 중합효소)를 통한 바이러스의 RNA 합성을 방해한다. 구체적으로 렘데시비르는 아래의 작용을 거쳐 RTP(렘데시비르 삼인산)으로 변환되며, 이것이 RNA 합성 중에 첨가되어 RNA의 합성을 방해한다. 렘데시비르는 현재 치료제로 승인되었다.
 
-![image](https://user-images.githubusercontent.com/88145508/133364363-76eb2a6f-1ae5-4886-abb6-3f7c1b880ca6.png)
+![image25](https://user-images.githubusercontent.com/88145508/133420245-c14a7984-c609-408f-b7df-d52b63e259fe.png)
 
 ​	위는 렘데시비르가 RTP로 변환되는 메커니즘을 나타낸 것이다. [15]
 
@@ -191,11 +191,11 @@ tags: [biology,chemistry,molecular-biology]
 
 ​	칼레트라(Kaletra)는 리토나비르(Ritonavir)와 로피나비르(Lopinavir)의 혼합물로, 본래 HIV의 단백질가위에 결합해 작용을 억제하는 에이즈 치료제이다. 이후 코로나19에 대한 치료제로 주목받았지만, 국립중앙의료원 중앙임상위원회에서는 치료효과가 제한적이라고 발표하여 치료제로서의 가능성은 거의 없다. 클로로퀸(Chloroquine)은 원래 말라리아 치료제로, 오토파지 시스템을 억제하여 SARS-CoV-2의 증식을 억제한다는 가설이 존재하였다. 오토파지란 세포 내의 노폐물을 청소하는 시스템으로, 소포체에서 유래한 오토파고솜(autophagosome; 자가소화포)이 리소좀과 결합하는 과정이라 할 수 있다. 하지만 결론적으로 클로로퀸의 치료 효과는 거의 없으며 일부에게 부정맥 등 부작용을 일으키는 것으로 나타나 치료제로서의 사용이 중단되었다.  
 
-![image](https://user-images.githubusercontent.com/88145508/133364366-ec358aa2-b040-4054-b0ce-da57eacc1705.png)
+![image26](https://user-images.githubusercontent.com/88145508/133420316-97b02ba3-36bd-4efe-9d9a-d1fcdc85057f.png)
 
 ​	위는 렘데시비르와 클로로퀸의 구조식이다.
 
-![image](https://user-images.githubusercontent.com/88145508/133364366-ec358aa2-b040-4054-b0ce-da57eacc1705.png)
+![image27](https://user-images.githubusercontent.com/88145508/133420320-bdb1fc21-a005-4104-ae4e-9a10e3235724.png)
 
 ​	위는 코로나19의 각종 저해제를 저해하는 경로에 따라 나타낸 그림이다. [16]
 
