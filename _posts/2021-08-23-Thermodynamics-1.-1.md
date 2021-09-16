@@ -138,25 +138,15 @@ A. 열린계가 될 것입니다. 물은 증발하면서 외부로 빠져나갈 
 
 잘 알려진 상태 함수로는 **압력(P), 부피(V), 온도(T), 에너지(E)**가 있습니다. 예컨대 부피라고 한다면, 부피의 처음과 끝 사이의 변화량은 단순히 V2-V1이 될 것입니다. 또 에너지 중에서 엔탈피(H)를 예시로 들어보겠습니다. 예컨대 다음과 같은 반응에서 엔탈피 변화를 A라고 해보겠습니다.
 
-$$
-$NO_2(g) + CO(g) \rightarrow NO(g) + CO_2(g)$
-$\newline \Delta H = A$
-$$
+![수식 1](https://latex.codecogs.com/gif.latex?NO_2%28g%29%20&plus;%20CO%28g%29%20%5Crightarrow%20NO%28g%29%20&plus;%20CO_2%28g%29%20%2C%5Cspace%20%5Cspace%20%5CDelta%20H%20%3D%20A)
 
 그런데 이 반응을 다음과 같이 두 단계를 거쳐서 진행할 수도 있을 것입니다. 각각의 엔탈피 변화를 B1, B2라고 해보겠습니다. 
 
-$$
-1. NO_2(g) + NO_2(g) \rightarrow NO(g) + NO_3(g) \space, \space \Delta H= B_1
-\newline
-2. NO_3(g) + CO(g) \rightarrow NO_2(g) + CO_2(g)\space, \space \Delta H= B_2
-\newline
-$$
+![수식 2](https://latex.codecogs.com/gif.latex?1.%20NO_2%28g%29%20&plus;%20NO_2%28g%29%20%5Crightarrow%20NO%28g%29%20&plus;%20NO_3%28g%29%20%5Cspace%2C%20%5Cspace%20%5CDelta%20H%3D%20B_1%20%5Cnewline%202.%20NO_3%28g%29%20&plus;%20CO%28g%29%20%5Crightarrow%20NO_2%28g%29%20&plus;%20CO_2%28g%29%5Cspace%2C%20%5Cspace%20%5CDelta%20H%3D%20B_2%20%5Cnewline)
 
 여기서 두 경로를 지나갈 때의 에너지 변화량은 초기 상태와 최종 상태가 같으므로, 
 
-$$
-A = B_1 + B_2
-$$
+![수식 3](https://latex.codecogs.com/gif.latex?A%20%3D%20B_1%20&plus;%20B_2)
 
 가 될 것입니다.
 
