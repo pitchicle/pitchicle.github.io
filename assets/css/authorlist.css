@@ -34,10 +34,10 @@
 }
 
 .authorcard:hover{ /* when mouse hover over pricing table */
-  transform: scale(1.05);
   transition: all .5s;
   z-index: 100;
   box-shadow: 0 0 10px gray;
+  transform: translateY(-0.1875em);
 }
 
 .authorcardprofile {
