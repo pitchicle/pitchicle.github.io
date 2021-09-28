@@ -5,7 +5,7 @@ description: |
   모두를 위한 과학
 
 baseurl: ''
-url: 'https://pitchicle.github.io/'
+url: 'https://pitchicle.github.io'
 timezone: Asia/Seoul 
 
 repository: pitchicle/pitchicle.github.io
