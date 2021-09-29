@@ -10,5 +10,4 @@ $0\in\mathbb{N}$
 
 - 32기 Pitchicle 사이트 관리자
 
-- 32기 EXE 부장
 
