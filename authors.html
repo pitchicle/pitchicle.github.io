@@ -44,8 +44,31 @@ priorOrder: the order that be displayed first
 {% for group in authorgroups %}
 	{% if priorOrder contains group.name %}
 		{% continue %}
-	{% else %}
+	{% elsif group.name != '🤖' %}
 		<h1>{{ group.name }}기</h1>
+		<div class="row">
+		{% assign modiauthors = group.items | sort: 'title' %}
+		{% for author in modiauthors %}
+			<div class="authorcard-container">
+				<div class="authorcard" onclick="location.href='{{ site.baseurl }}/authors/{{ author.name }}';">
+					<span style="background-color: #CAD5DF;box-shadow: 0 0 0 30px #CAD5DF;">
+					<br/>
+					<div class="authorcardprofile" {% if author.image %}style="background-image: url({{ author.image }});"{% endif %}></div>
+					</span>
+					<p style="margin-top:40px;">{{ author.title }} ({{ author.name }}) {{ author.class | default:'' }}</p>
+				</div>
+			</div>
+		{% endfor %}
+		</div>
+	{% endif %}
+{% endfor %}
+
+<!-- Robot Groups -->
+{% for group in authorgroups %}
+	{% if priorOrder contains group.name %}
+		{% continue %}
+	{% elsif group.name == '🤖' %}
+		<h1>Robots 🤖</h1>
 		<div class="row">
 		{% assign modiauthors = group.items | sort: 'title' %}
 		{% for author in modiauthors %}

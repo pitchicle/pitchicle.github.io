@@ -1,0 +1,13 @@
+---
+layout: page
+permalink: /tmi/
+---
+<ul id="post-list">
+	<h2>신기한 과학 TMI, 알쓸쓸지!</h2>
+	<h6>알아두면 쓸모있는 쓸모없는 지식들</h6>
+    {% for post in site.posts %}
+	  {% if post.tags contains 'tmi' %}
+	​    {% include item.html %}
+	  {% endif %}
+	{% endfor %}
+</ul>
