@@ -19,10 +19,12 @@ tags : [biology,molecular-biology, ]
  다발성 경화증이라고 들어보았는가? 다발성 경화증은 중추신경계 질환으로 뇌와 척수의 축삭 주변의 지방성 말이집을 감싸는 부분이 손상을 입어서 탈수질환과 흉터형성으로 이어지는 염증 질환이다. 해당 질환은 interperon β을 통해 면역 작용 조절을 하여 질병의 진행률을 감소시킨다. 따라서 본 연구에서는 interperon β의 대량 생산을 통해 다발성 경화증의 치료율 향상을 목적으로 두었으며, 다양한 발현 벡터에 따른 interperon β-1b의 발현을 확인하였다. 
 
 <img src='https://user-images.githubusercontent.com/93033380/139177553-c8086f8b-20ea-4509-8631-e9aa58cfc127.png'><interperon beta>
+ 다음 사진은 interperon-beta이다. 
 
 <img src='https://user-images.githubusercontent.com/93033380/139177413-b4fd489d-b5e2-4d3c-9de5-c771f7cdc41d.png'>
 
 <Cystein>
+ 다음 사진은 Cystein이다. 
 
  interperon β란 척추동물의 면역 세포에서 만들어지는 자연 단백질로써, 외부 침입자에 대응하는 역할을 한다. interperon β에는 두 종류의 단백질이 있는데 하나는 interperon β-1a이고 하나는 interperon β-1b이다. 그렇다면 본 연구에서 interperon β-1a가 아닌 interperon β-1b를 사용하는 이유는 무엇일까? 그 이유는 바로 시스테인 잔기에 있다. 시스테인(Cysteine)은 황(S)를 함유하고 있는 아미노산이다. 이 시스테인이 두 개가 결합하여 시스틴을 형성하는데 이 시스틴의 황결합은 단백질 구조 결정에 큰 영향을 미친다. interperon β를 구성하는 아미노산의 17, 31, 141번째 위치에는 시스테인 잔기가 위치해있다. 이 중 17번째 시스테인 잔기는 단백질의 안정성을 저하시키고, 단백질 발현 시에 misfolding을 일으켜 inclusion body를 형성한다. misfolding은 단백질 잘못 접힘 현상을 말한다. 단백질은 저마다 최선의 기능을 위하여 고유한 접힘 구조를 가지고 있다. 만일 단백질이 잘못 접히게 되면 inclusion body, 즉 봉입체 (세균이나 바이러스에서 감염된 세포에서 관찰되는 성분을 말한다.)를 형성하여 기능적 장애를 유도하고 질병을 발생시키게 된다. interperon β-1b와 같은 경우 17번째 시스테인 잔기가 세린(Serine)기로 치환되어 interperon β-1a에 비해 안정성이 상대적으로 크기에 주로 생산이 되며, 따라서 해당 연구에서도 interperon β-1b의 발현을 확인하였다. 본 연구에서 사용되는 interperon β-1b는 E,coli, 즉 대장균에서 생산이 되며, 항염증 작용으로 다발성 경화증의 비정상적 면역 작용을 조절하여 다발성 경화증의 질병 진행 속도를 현저하게 감소시킨다. interperon β-1b가 E.coli에서 생산이 되므로, 이를 대량 생산하기 위해서는 interperon β-1b의 대장균에서의 발현을 확인해야하는 것이다. 
 
@@ -59,6 +61,7 @@ tags : [biology,molecular-biology, ]
  <img src='https://user-images.githubusercontent.com/93033380/139177006-e608a111-838b-4133-913d-eb8ac29b2ce9.png'>
 
 <IPTG>
+ 다음 사진은 IPTG 구조식이다. 
 
  <img src='https://user-images.githubusercontent.com/93033380/139178253-9dd9a918-09e8-4f64-bd01-151a4ef5417d.png'>  
 
