@@ -60,7 +60,7 @@ Cystein
 
 <IPTG>
 
- <img src='https://user-images.githubusercontent.com/93033380/139178253-9dd9a918-09e8-4f64-bd01-151a4ef5417d.png' style='width:70%,height:70%'>  
+ <img src='https://user-images.githubusercontent.com/93033380/139178253-9dd9a918-09e8-4f64-bd01-151a4ef5417d.png' style='width:70%'>  
 
  interperon β-1b을 pET-15b와 pET-21b 벡터를 이용하여 발현시킨 결과이다. 사진에서 화살표가 가리키는 부분은 발현이 될 것이라 예상한 위치로 예상 로케이션에서 발현이 되지 않았음을 알 수 있다. 
 
@@ -70,7 +70,7 @@ Cystein
 
 같은 방식으로 interperon β-1b를 pQE30 벡터를 이용하여 발현시킨 결과이다. 사진을 보면 예상 로케이션에서 발현이 일어났음을 알 수 있다. 
 
-<img src='https://user-images.githubusercontent.com/93033380/139178404-2f88c4a9-c706-46f2-85da-e6906591d938.png' style='width:70%,height:70%'>
+<img src='https://user-images.githubusercontent.com/93033380/139178404-2f88c4a9-c706-46f2-85da-e6906591d938.png' style='width:70%'>
 
  그러나 사진을 보고 의문점이 드는 사람도 있을 것이다. 사진에서 lane이 총 여섯 개가 있는데 이 중 일부 lane에서는 발현이 나타나지 않았다. 그 이유는 무엇일까? 정답은 interperon β-1b가 비수용성 형태로 발현되었기 때문이다. 사진에서 보이듯, lane 2, 5는 souble, 즉 수용성을 의미한다. 따라서 비수용성 형태로 발현되었기 때문에 lane 2와 5에서는 발현되지 않았던 것이다.     
 
