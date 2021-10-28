@@ -69,6 +69,8 @@ collective behavior를 직역하면 집단적 움직임입니다. 플라즈마�
 
 
 전기 퍼텐셜을 계산하기 위해 맥스웰 방정식 중 가우스 법칙을 푸아송 방정식으로 바꾸어 표현합니다.
+
+
 $$
 \nabla\cdot\vec{D} = \sigma \\
 \nabla\cdot\vec{E} = {\sigma\over\epsilon_0} \\
@@ -76,38 +78,66 @@ $$
 -\epsilon_0\nabla^2\phi = \sigma
 $$
 이를 첫 번째 가정을 이용하여 아래와 같은 식으로 정리해줍니다.
+
+
 $$
 {d^2\phi\over dx^2} = -{1\over\epsilon_0}(en_i-en_e)
 \text{ (}n_i\text{는 ion density, }n_e\text{는 electron density})
 $$
+
+
 이때 $\sigma$는 전하 밀도이므로 $e$만큼의 전하량을 가진 ion과 $-e$만큼의 전하량을 가진 전자의 전하 밀도를 더하여 나타냅니다. 무한대에 있는 입자들의 밀도를 이라고 할 때 네 번째 가정에 의하여
+
+
 $$
 n_i=n\text{, } n_c=n\exp\left({e\phi\over kT_c}\right) \text{ (Boltzmann Distribution function)}
 $$
+
+
  으로 나타낼 수 있습니다. 이 두 개의 밀도를 위의 미분방정식에 넣어 풀이해야 하는데 식이 너무 복잡합니다. $\exp(x)$의 Taylor series를 통해 식을 간편하게 만들 것입니다. ($\exp(x)$는 $e^x$입니다.)
+
+
 $$
 e^x=1+x+{x^2\over2}+\cdots \text{ (}|x|<1\text{)}
 $$
+
+
 이를 위의 전자의 밀도에 적용하면 다음과 같이 쓸 수 있습니다. 
+
+
 $$
 n_c = n\exp\left({e\phi\over kT_c}\right)\approx n\left(1+{e\phi \over kT_c} + \cdots \right) (\because \left|{e\phi\over kT_c}\right|\ll1)
 $$
-두번 째 범위를 나타내는 부등식은 전기 퍼텐셜 에너지보다 운동에너지의 값이 더 큰 것을 의미합니다. 즉, 운동에너지가 전기 퍼텐셜 에너지보다 클 때 위와 같이 나타낼 수 있습니다. 이제 $n_i$, $n_e$를 위의 푸아송 방정식에 대입하여 풀어보겠습니다.
+
+
+두 번째 범위를 나타내는 부등식은 전기 퍼텐셜 에너지보다 운동에너지의 값이 더 큰 것을 의미합니다. 즉, 운동에너지가 전기 퍼텐셜 에너지보다 클 때 위와 같이 나타낼 수 있습니다. 이제 $n_i$, $n_e$를 위의 푸아송 방정식에 대입하여 풀어보겠습니다.
+
+
 $$
 {d^2\phi\over dx^2} = {e\over\epsilon_0}(n_c-n_i) = {e\over\epsilon_0}\left(n+{ne\phi\over kT_c} - n\right) = {ne^2\over\epsilon_0kT_c}\phi
 $$
+
+
 이후 디바이 길이를 정의하여 대입합니다. $\lambda_D = \sqrt{\epsilon_0kT_c\over ne^2}$이라고 하면
+
+
 $$
 {d^2\phi\over dx^2} = {1\over{\lambda_D}^2}\phi \\
 \phi = C_1e^{-{|x|\over\lambda_D}}+C_2e^{|x|\over\lambda_D}
 $$
+
+
 여기에서 초기 조건 두 가지를 정의하여 식에 대입하면 다음과 같이 정리할 수 있습니다. 
 $$
 x=0, \phi=\phi_0 \\
 x\rightarrow\infty, \phi=0 \\
 \phi=\phi_0e^{-{|x|\over\lambda_D}}
 $$
+
+
 이를 좌표평면 위에 나타내면 다음과 같은 개형을 나타냅니다. 
+
+
 
 <div style="text-align:center">
     <img src="https://user-images.githubusercontent.com/77658570/139060863-091cde19-4a6d-44b8-a93e-055dbcbee480.png" style="zoom:50%;" />
