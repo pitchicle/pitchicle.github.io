@@ -18,7 +18,7 @@ tags : [biology,molecular-biology, ]
 
  다발성 경화증이라고 들어보았는가? 다발성 경화증은 중추신경계 질환으로 뇌와 척수의 축삭 주변의 지방성 말이집을 감싸는 부분이 손상을 입어서 탈수질환과 흉터형성으로 이어지는 염증 질환이다. 해당 질환은 interperon β을 통해 면역 작용 조절을 하여 질병의 진행률을 감소시킨다. 따라서 본 연구에서는 interperon β의 대량 생산을 통해 다발성 경화증의 치료율 향상을 목적으로 두었으며, 다양한 발현 벡터에 따른 interperon β-1b의 발현을 확인하였다. 
 
-<img src='https://user-images.githubusercontent.com/93033380/139177553-c8086f8b-20ea-4509-8631-e9aa58cfc127.png' style='width:70%,height:70%'>interperon beta
+<img src='https://user-images.githubusercontent.com/93033380/139177553-c8086f8b-20ea-4509-8631-e9aa58cfc127.png' style='width:100px'>interperon beta
 
 <img src='https://user-images.githubusercontent.com/93033380/139177413-b4fd489d-b5e2-4d3c-9de5-c771f7cdc41d.png'>
 
