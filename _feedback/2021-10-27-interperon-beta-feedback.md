@@ -3,14 +3,14 @@ layout : post
 title : '코돈 최적화된 유전자를 이용한 재조합 대장균으로부터 interperon β의 발현'
 author : yuna.jung
 comments : true
-date : 2021-10-28 12:00
+date : 2021-10-27 12:00
 use_math : true
 tags : [biology,molecular-biology, ]
 ---
 
 
 
-<코돈 최적화된 유전자를 이용한 재조합 대장균으로부터 interperon β의 발현> 이라는 논문을 읽고 interperon β과 해당 유전자의 발현 과정을 살펴보았다. 
+`<코돈 최적화된 유전자를 이용한 재조합 대장균으로부터 interperon β의 발현>` 이라는 논문을 읽고 interperon β과 해당 유전자의 발현 과정을 살펴보았다. 
 
 
 
@@ -20,15 +20,17 @@ tags : [biology,molecular-biology, ]
 
 <div style="text-align:center">
     <img src='https://user-images.githubusercontent.com/93033380/139177553-c8086f8b-20ea-4509-8631-e9aa58cfc127.png' style='width:50%'>
+    <p>
+        interperon beta
+    </p>
 </div>
-
-interperon beta
 
 <div style="text-align:center">
     <img src='https://user-images.githubusercontent.com/93033380/139177413-b4fd489d-b5e2-4d3c-9de5-c771f7cdc41d.png'>
+    <p>
+        Cystein
+    </p>
 </div>
-
-Cystein
 
  interperon β란 척추동물의 면역 세포에서 만들어지는 자연 단백질로써, 외부 침입자에 대응하는 역할을 한다. interperon β에는 두 종류의 단백질이 있는데 하나는 interperon β-1a이고 하나는 interperon β-1b이다. 그렇다면 본 연구에서 interperon β-1a가 아닌 interperon β-1b를 사용하는 이유는 무엇일까? 그 이유는 바로 시스테인 잔기에 있다. 시스테인(Cysteine)은 황(S)를 함유하고 있는 아미노산이다. 이 시스테인이 두 개가 결합하여 시스틴을 형성하는데 이 시스틴의 황결합은 단백질 구조 결정에 큰 영향을 미친다. interperon β를 구성하는 아미노산의 17, 31, 141번째 위치에는 시스테인 잔기가 위치해있다. 이 중 17번째 시스테인 잔기는 단백질의 안정성을 저하시키고, 단백질 발현 시에 misfolding을 일으켜 inclusion body를 형성한다. misfolding은 단백질 잘못 접힘 현상을 말한다. 단백질은 저마다 최선의 기능을 위하여 고유한 접힘 구조를 가지고 있다. 만일 단백질이 잘못 접히게 되면 inclusion body, 즉 봉입체 (세균이나 바이러스에서 감염된 세포에서 관찰되는 성분을 말한다.)를 형성하여 기능적 장애를 유도하고 질병을 발생시키게 된다. interperon β-1b와 같은 경우 17번째 시스테인 잔기가 세린(Serine)기로 치환되어 interperon β-1a에 비해 안정성이 상대적으로 크기에 주로 생산이 되며, 따라서 해당 연구에서도 interperon β-1b의 발현을 확인하였다. 본 연구에서 사용되는 interperon β-1b는 E,coli, 즉 대장균에서 생산이 되며, 항염증 작용으로 다발성 경화증의 비정상적 면역 작용을 조절하여 다발성 경화증의 질병 진행 속도를 현저하게 감소시킨다. interperon β-1b가 E.coli에서 생산이 되므로, 이를 대량 생산하기 위해서는 interperon β-1b의 대장균에서의 발현을 확인해야하는 것이다. 
 
@@ -66,9 +68,10 @@ Cystein
 
  <div style="text-align:center">
      <img src='https://user-images.githubusercontent.com/93033380/139177006-e608a111-838b-4133-913d-eb8ac29b2ce9.png'>
+     <p>
+         IPTG
+     </p>
  </div>
-
-IPTG
 
  <div style="text-align:center" >
      <img src='https://user-images.githubusercontent.com/93033380/139178253-9dd9a918-09e8-4f64-bd01-151a4ef5417d.png' style='width:70%'>

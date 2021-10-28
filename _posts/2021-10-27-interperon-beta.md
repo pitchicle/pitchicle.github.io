@@ -3,9 +3,9 @@ layout : post
 title : '코돈 최적화된 유전자를 이용한 재조합 대장균으로부터 interperon β의 발현'
 author : yuna.jung
 comments : true
-date : 2021-10-28 12:00
+date : 2021-10-27 12:00
 use_math : true
-tags : [biology,molecular-biology, ]
+tags : [biology, molecular-biology]
 ---
 
 

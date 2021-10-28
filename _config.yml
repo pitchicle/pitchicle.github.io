@@ -35,6 +35,9 @@ collections:
   tags:
     output: true
     permalink: /tags/:path/
+  feedback:
+    output: true
+    permalink: /feedback/:path/
 
 defaults:
   - scope:
@@ -47,7 +50,11 @@ defaults:
       type: tags
     values:
       layout: tag
-      
+  - scope:
+      path: ''
+      type: post
+    values:
+      layout: post 
 
 exclude: [README.md, Gemfile, Gemfile.lock]
 
