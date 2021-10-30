@@ -70,7 +70,9 @@ tags : [math]
 
 **\- 생물학에서**
 
-수학의 방정식은 어떠한 조건을 만족하는 수치를 찾는 강력한 수단입니다. 미분방정식은 함수의 미분과 관련된 방정식으로, 해석학의 여러 연구를 통해 특정한 꼴의 미분방정식을 푸는 방법이 여럿 알려져 있습니다.
+수학의 방정식은 어떠한 조건을 만족하는 수치를 찾는 강력한 수단입니다. 미분방정식은 함수의 미분과 관련된 방정식으로, 해석학의 여러 연구를 통해 특정한 꼴의 미분방정식을 푸는 방법이 여럿 알려져 있습니다. **수리생물학**에서는 종종 호르몬의 농도, 화학 반응의 속도 등의 변수에 관한 미분방정식을 푸는 것으로 자연 현상을 분석합니다.
+
+![김재경 교수의 생체시계 연구에 사용된 방정식의 일부 및 실험에 관한 이미지$^{2)}$](https://user-images.githubusercontent.com/46587635/139520992-417ba266-bd79-477f-bb40-90f1f7a55db3.png)
 
 ---
 
@@ -78,3 +80,4 @@ tags : [math]
 
 1) Geom Software - [2.5D Terrain Triangulation and Point Cloud Simplification](https://www.geom.at/terrain-triangulation/)
 
+2) KAIST 수리과학과 - [김재경 교수, 수학 통해 생체시계 유지 원리 60여년 만에 밝혀](https://mathsci.kaist.ac.kr/home/2015/10/%EA%B9%80%EC%9E%AC%EA%B2%BD-%EA%B5%90%EC%88%98-%EC%88%98%ED%95%99-%ED%86%B5%ED%95%B4-%EC%83%9D%EC%B2%B4%EC%8B%9C%EA%B3%84-%EC%9C%A0%EC%A7%80-%EC%9B%90%EB%A6%AC-60%EC%97%AC%EB%85%84-%EB%A7%8C%EC%97%90/)
