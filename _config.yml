@@ -1,8 +1,6 @@
 title: Pitchicle
 email: cbshpitchicle@gmail.com
-description: |
-  평등으로의 한 걸음
-  모두를 위한 과학
+description: "평등으로의 한 걸음, 모두를 위한 과학"
 
 baseurl: ''
 url: 'https://pitchicle.github.io'
@@ -23,9 +21,8 @@ krandown:
 gems:
   - jekyll-paginate
   - jekyll-seo-tag
-  - jekyll-sitemap
 
-paginate: 8
+paginate: 5
 paginate_path: '/page/:num/'
 
 collections:
