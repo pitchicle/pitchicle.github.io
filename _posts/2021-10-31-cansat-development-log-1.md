@@ -137,9 +137,9 @@ tags : [computer-science]
 
 아래는 실제 서류에 포함되었던 이미지이다.
 
-<img src="https://user-images.githubusercontent.com/54809044/139794295-e282a2ca-7c8b-4ad7-83ec-6ff5c101fba9.png"/>
+![지표 위 점 데이터를 얻는 방법](https://user-images.githubusercontent.com/54809044/139794295-e282a2ca-7c8b-4ad7-83ec-6ff5c101fba9.png)
 
-![image](https://user-images.githubusercontent.com/54809044/139794331-f639e008-23c6-4221-bd81-a83d7e224869.png)
+![수해 발생 시간 예측 방법](https://user-images.githubusercontent.com/54809044/139794331-f639e008-23c6-4221-bd81-a83d7e224869.png)
 
 
 
