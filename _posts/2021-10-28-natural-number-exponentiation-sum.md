@@ -3,7 +3,7 @@ layout : post
 title : '자연수의 거듭제곱 합의 기하학적 증명'
 author : 'hyunjin.lee'
 comments : true
-date : 2021-01-01 00:00
+date : 2021-10-28 00:00
 use_math : true
 tags : [mathematics]
 ---
