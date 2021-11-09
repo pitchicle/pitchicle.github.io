@@ -5,26 +5,32 @@ author : yuna.jung
 comments : true
 date : 2021-10-27 12:00
 use_math : true
-tags : [biology, molecular-biology]
+tags : [biology,molecular-biology, ]
 ---
 
 
 
-코돈 최적화된 유전자를 이용한 재조합 대장균으로부터 interperon β의 발현> 이라는 논문을 읽고 interperon β과 해당 유전자의 발현 과정을 살펴보았다. 
+`<코돈 최적화된 유전자를 이용한 재조합 대장균으로부터 interperon β의 발현>` 이라는 논문을 읽고 interperon β과 해당 유전자의 발현 과정을 살펴보았다. 
 
 
 
 # **I.** **연구 목적 및 이론적 지식** 
 
  다발성 경화증이라고 들어보았는가? 다발성 경화증은 중추신경계 질환으로 뇌와 척수의 축삭 주변의 지방성 말이집을 감싸는 부분이 손상을 입어서 탈수질환과 흉터형성으로 이어지는 염증 질환이다. 해당 질환은 interperon β을 통해 면역 작용 조절을 하여 질병의 진행률을 감소시킨다. 따라서 본 연구에서는 interperon β의 대량 생산을 통해 다발성 경화증의 치료율 향상을 목적으로 두었으며, 다양한 발현 벡터에 따른 interperon β-1b의 발현을 확인하였다. 
-<br>
-<img src='https://user-images.githubusercontent.com/93033380/139177553-c8086f8b-20ea-4509-8631-e9aa58cfc127.png' style='width:70%'>
-<br>
-interperon beta
 
-<img src='https://user-images.githubusercontent.com/93033380/139177413-b4fd489d-b5e2-4d3c-9de5-c771f7cdc41d.png'>
+<div style="text-align:center">
+    <img src='https://user-images.githubusercontent.com/93033380/139177553-c8086f8b-20ea-4509-8631-e9aa58cfc127.png' style='width:50%'>
+    <p>
+        interperon beta
+    </p>
+</div>
 
-Cystein
+<div style="text-align:center">
+    <img src='https://user-images.githubusercontent.com/93033380/139177413-b4fd489d-b5e2-4d3c-9de5-c771f7cdc41d.png'>
+    <p>
+        Cystein
+    </p>
+</div>
 
  interperon β란 척추동물의 면역 세포에서 만들어지는 자연 단백질로써, 외부 침입자에 대응하는 역할을 한다. interperon β에는 두 종류의 단백질이 있는데 하나는 interperon β-1a이고 하나는 interperon β-1b이다. 그렇다면 본 연구에서 interperon β-1a가 아닌 interperon β-1b를 사용하는 이유는 무엇일까? 그 이유는 바로 시스테인 잔기에 있다. 시스테인(Cysteine)은 황(S)를 함유하고 있는 아미노산이다. 이 시스테인이 두 개가 결합하여 시스틴을 형성하는데 이 시스틴의 황결합은 단백질 구조 결정에 큰 영향을 미친다. interperon β를 구성하는 아미노산의 17, 31, 141번째 위치에는 시스테인 잔기가 위치해있다. 이 중 17번째 시스테인 잔기는 단백질의 안정성을 저하시키고, 단백질 발현 시에 misfolding을 일으켜 inclusion body를 형성한다. misfolding은 단백질 잘못 접힘 현상을 말한다. 단백질은 저마다 최선의 기능을 위하여 고유한 접힘 구조를 가지고 있다. 만일 단백질이 잘못 접히게 되면 inclusion body, 즉 봉입체 (세균이나 바이러스에서 감염된 세포에서 관찰되는 성분을 말한다.)를 형성하여 기능적 장애를 유도하고 질병을 발생시키게 된다. interperon β-1b와 같은 경우 17번째 시스테인 잔기가 세린(Serine)기로 치환되어 interperon β-1a에 비해 안정성이 상대적으로 크기에 주로 생산이 되며, 따라서 해당 연구에서도 interperon β-1b의 발현을 확인하였다. 본 연구에서 사용되는 interperon β-1b는 E,coli, 즉 대장균에서 생산이 되며, 항염증 작용으로 다발성 경화증의 비정상적 면역 작용을 조절하여 다발성 경화증의 질병 진행 속도를 현저하게 감소시킨다. interperon β-1b가 E.coli에서 생산이 되므로, 이를 대량 생산하기 위해서는 interperon β-1b의 대장균에서의 발현을 확인해야하는 것이다. 
 
@@ -38,43 +44,49 @@ Cystein
 
 ## 1) 코돈 최적화된 interperon β-1b 유전자의 확보 
 
- 코돈이란 쉽게 말해 유전 부호다. 생명 중심 원리에서 RNA는 단백질로 번역이 되는데, 이 번역의 과정에서 RNA의 염기서열 3단위가 단백질의 기본 단위체인 아미노산 1단위로 번역된다. 이때의 3단위를 코돈이라 한다. 코돈은 아미노산 하나를 지정한다. 코돈 최적화를 통해서 사용 빈도가 적절한 코돈을 사용하면 이에 대응하는 tRNA도 높은 비율로 존재하게 되므로 번역을 빠르고 효율적으로 수행하게 된다. 이에 따라 단백질 합성이 최적화되고 대장균에서의 발현이 잘 된다. 따라서 연구에서는 코돈 최적화를 통해서 기존의 interperon β-1b 유전자, 즉 야생형(wild) interperon β-1b유전자와 차이를 주어 두 유전자의 발현 결과를 확인하려 시도하였다. <br>
+ 코돈이란 쉽게 말해 유전 부호다. 생명 중심 원리에서 RNA는 단백질로 번역이 되는데, 이 번역의 과정에서 RNA의 염기서열 3단위가 단백질의 기본 단위체인 아미노산 1단위로 번역된다. 이때의 3단위를 코돈이라 한다. 코돈은 아미노산 하나를 지정한다. 코돈 최적화를 통해서 사용 빈도가 적절한 코돈을 사용하면 이에 대응하는 tRNA도 높은 비율로 존재하게 되므로 번역을 빠르고 효율적으로 수행하게 된다. 이에 따라 단백질 합성이 최적화되고 대장균에서의 발현이 잘 된다. 따라서 연구에서는 코돈 최적화를 통해서 기존의 interperon β-1b 유전자, 즉 야생형(wild) interperon β-1b유전자와 차이를 주어 두 유전자의 발현 결과를 확인하려 시도하였다. 
 
- <img src='https://user-images.githubusercontent.com/93033380/139178035-7b7f5afc-a0bf-46fc-b1be-cc3f6a6891e9.jpg'> 
+<div style="text-align:center">
+    <img src='https://user-images.githubusercontent.com/93033380/139178035-7b7f5afc-a0bf-46fc-b1be-cc3f6a6891e9.jpg'>
+</div>
 
-​    
+
 
 ## 2) pET-15b 그리고 pET-21a 벡터를 이용한 interperon β-1b 발현
 
  앞에서 야생형의 유전자, 그리고 코돈 최적화 과정을 통하여 코돈 최적화된 interperon β-1b 유전자를 확보하였으니, 이제 이를 발현시키는 과정을 거쳐야 한다. 앞서 말했던 연구 방법에서 2번과 3번은 두 과정 모두 벡터를 이용하여 interperon β-1b를 발현시키며, 단지 벡터의 종류에 차이를 둔 것이다. 따라서 두 과정 모두 진행 방법은 같으므로 본 단계에서 설명하고 가겠다. 
 
- 먼저, interperon β-1b 유전자들을 발현용 벡터를 이용하여 대장균에서의 발현을 살펴보는데, 여기서 발현용 벡터란, 유전물질을 운반하는 분자로 유전자 발현이 일어나도록 도와준다. 다시 말하여서, 발현용 벡터를 이용하여 대장균에서 interperon β-1b 유전자가 발현되도록 하는 것이다. 본 연구에서는 pET-15 그리고 pET-21a 벡터/pQE30 벡터로 나누어 과정을 진행하였다. <br>
+ 먼저, interperon β-1b 유전자들을 발현용 벡터를 이용하여 대장균에서의 발현을 살펴보는데, 여기서 발현용 벡터란, 유전물질을 운반하는 분자로 유전자 발현이 일어나도록 도와준다. 다시 말하여서, 발현용 벡터를 이용하여 대장균에서 interperon β-1b 유전자가 발현되도록 하는 것이다. 본 연구에서는 pET-15 그리고 pET-21a 벡터/pQE30 벡터로 나누어 과정을 진행하였다. 
 
-
-
- <img src='https://user-images.githubusercontent.com/93033380/139177840-30e9534b-5013-4ee6-b103-f90d7d7831c3.png'>
+ <div style="text-align:center">
+     <img src='https://user-images.githubusercontent.com/93033380/139177840-30e9534b-5013-4ee6-b103-f90d7d7831c3.png'>
+ </div>
 
 
 
  진행 방법은 크게 두 단계로 나뉜다. 첫 번째, 발현용 벡터를 제작한다. 따라서 primer와 제한 효소들을 이용하여 재조합 interperon β-1b 발현 벡터를 개발한다. 두 번째, 발현 균주인 E,coli에 발현 벡터들을 도입하여 IPTG를 이용한 발현 유도를 통해 interperon β-1b 발현을 시행한다. 여기서 IPTG란, 분자생물학적 시약인데, 유전자가 lac operon의 통제 하에 있을 때 단백질 발현 유도에 사용이 된다. 오페론(operon)은 전사가 조절되는 하나의 유전자 집단이다. lac operon(젖당 오페론)은 오페론의 종류 중 하나로, 락토오스(lactose), 즉 젖당의 분해와 관련이 있는 오페론이다. IPTG가 젖당 대사물이기 때문에 lac operon의 전사를 개시하고, 이떄문에 lac operon의 통제 하에 단백질 발현 유도가 이루어지는 것이다. 정리하자면, 진행 방법은 벡터를 개발하고 개발한 벡터를 대장균에 도입하여 IPTG를 통해 interperon β-1b 발현을 유도하는 것이다. 
-<br>
- <img src='https://user-images.githubusercontent.com/93033380/139177006-e608a111-838b-4133-913d-eb8ac29b2ce9.png'>
 
-IPTG
-<br>
- <img src='https://user-images.githubusercontent.com/93033380/139178253-9dd9a918-09e8-4f64-bd01-151a4ef5417d.png' style='width:70%'>  
-<br>
+ <div style="text-align:center">
+     <img src='https://user-images.githubusercontent.com/93033380/139177006-e608a111-838b-4133-913d-eb8ac29b2ce9.png'>
+     <p>
+         IPTG
+     </p>
+ </div>
+
+ <div style="text-align:center" >
+     <img src='https://user-images.githubusercontent.com/93033380/139178253-9dd9a918-09e8-4f64-bd01-151a4ef5417d.png' style='width:70%'>
+ </div>
  interperon β-1b을 pET-15b와 pET-21b 벡터를 이용하여 발현시킨 결과이다. 사진에서 화살표가 가리키는 부분은 발현이 될 것이라 예상한 위치로 예상 로케이션에서 발현이 되지 않았음을 알 수 있다. 
-
-​    
 
 ## 3) pQE30 벡터를 이용한 interperon β-1b 발현
 
 같은 방식으로 interperon β-1b를 pQE30 벡터를 이용하여 발현시킨 결과이다. 사진을 보면 예상 로케이션에서 발현이 일어났음을 알 수 있다. 
-<br>
-<img src='https://user-images.githubusercontent.com/93033380/139178404-2f88c4a9-c706-46f2-85da-e6906591d938.png' style='width:70%'>
-<br>
- 그러나 사진을 보고 의문점이 드는 사람도 있을 것이다. 사진에서 lane이 총 여섯 개가 있는데 이 중 일부 lane에서는 발현이 나타나지 않았다. 그 이유는 무엇일까? 정답은 interperon β-1b가 비수용성 형태로 발현되었기 때문이다. 사진에서 보이듯, lane 2, 5는 souble, 즉 수용성을 의미한다. 따라서 비수용성 형태로 발현되었기 때문에 lane 2와 5에서는 발현되지 않았던 것이다.     
+
+<div style="text-align:center">
+    <img src='https://user-images.githubusercontent.com/93033380/139178404-2f88c4a9-c706-46f2-85da-e6906591d938.png' style='width:70%'>
+</div>
+
+ 그러나 사진을 보고 의문점이 드는 사람도 있을 것이다. 사진에서 lane이 총 여섯 개가 있는데 이 중 일부 lane에서는 발현이 나타나지 않았다. 그 이유는 무엇일까? 정답은 interperon β-1b가 비수용성 형태로 발현되었기 때문이다. 사진에서 보이듯, lane 2, 5는 souble, 즉 수용성을 의미한다. 따라서 비수용성 형태로 발현되었기 때문에 lane 2와 5에서는 발현되지 않았던 것이다.
 
 ​    
 
