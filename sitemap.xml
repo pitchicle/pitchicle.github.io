@@ -16,18 +16,6 @@ layout: null
     <priority>1.0</priority>
   </url>
   {% endfor %}
-  {% for page in site.pages %}
-  {% if page.sitemap %}
-  <url>
-    <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
-    {% if page.date %}
-    <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
-    {% endif %}
-    <changefreq>{{ sitemap.freq | default: 'hourly' }}</changefreq>
-    <priority>{{ sitemap.priority | default: '1.0' }}</priority>
-  </url>
-  {% endif %}
-  {% endfor %}
   {% for tag in site.tags %}
   <url>
     <loc>{{ site.url }}{{ site.baseurl }}/tags/{{ tag.name }}</loc>
