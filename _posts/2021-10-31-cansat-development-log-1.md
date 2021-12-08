@@ -3,7 +3,7 @@ layout : post
 title : '캔위성 개발일지 1'
 author : hyunho.choi
 comments : true
-date : 2021-10-31 21:00
+date : 2021-10-31 22:00
 use_math : true
 tags : [computer-science]
 ---
