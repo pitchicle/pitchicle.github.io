@@ -1,16 +1,14 @@
 ---
-Layout: post
-Title : '딥러닝을 쉽게 쓰려고 노력까진 했습니다 - Chapter 0. 프롤로그'
-Author : doyen.lim
-Comments: true
-Date: 2021-12-13 5:49
-Use_math : true
-Tags: [computer-science]
+layout: post
+title : '딥러닝을 쉽게 쓰려고 노력까진 했습니다 - Chapter 0. 프롤로그'
+author : dohyeon.lim
+comments: true
+date: 2021-12-12 00:00
+use_math : true
+tags: [computer-science]
 ---
 
 # 딥러닝을 쉽게 쓰려고 노력까진 했습니다 - Chapter 0. 프롤로그
-
-32기 임도현
 
  이 시리즈는 말 그대로 간단한 딥러닝을 이용한 손글씨 분석 알고리즘을 python을 통해 구현해보는 내용을 다룰 예정입니다. 이 시리즈는 ‘밑바닥부터 시작하는 딥러닝’이라는 책을 토대로 작성하였으며, 만약 python을 모르시더라도 구현하는 데 필요한 python의 기초 상식 또한 다룰 예정이니, 걱정하지 않으셔도 됩니다.
 

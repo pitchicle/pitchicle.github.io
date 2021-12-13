@@ -1,16 +1,14 @@
 ---
-Layout: post
-Title : '딥러닝을 쉽게 쓰려고 노력까진 했습니다 - Chapter 2. 퍼셉트론'
-Author : doyen.lim
-Comments: true
-Date: 2021-12-13 5:49
-Use_math : true
-Tags: [computer-science]
+layout: post
+title : '딥러닝을 쉽게 쓰려고 노력까진 했습니다 - Chapter 2. 퍼셉트론'
+author : dohyeon.lim
+comments: true
+date: 2021-12-12 00:02
+use_math : true
+tags: [computer-science]
 ---
 
 # 딥러닝을 쉽게 쓰려고 노력까진 했습니다 - Chapter 2. 퍼셉트론
-
-32기 임도현
 
 이 시리즈는 ‘밑바닥부터 시작하는 딥러닝’이라는 책을 토대로 작성하였으며, 말 그대로 간단한 딥러닝을 이용한 손글씨 분석 알고리즘을 python을 통해 구현해보는 내용을 다룰 예정입니다.
 
