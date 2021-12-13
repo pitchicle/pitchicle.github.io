@@ -47,15 +47,15 @@ tags: [computer-science]
 
  우선 https://github.com/WegraLee/deep-learning-from-scratch에 들어가 이 시리즈에서 사용하는 코드를 다운받을 수 있습니다. 다음으로 python을 사용할 프로그램에 대해 알아보겠습니다. python을 사용할 프로그램으로 colab, repl.it, pychram 등이 있지만, 이 시리즈에서는 jupyter notebook을 사용할 것입니다. 우선 윈도우 기준으로 설명을 하겠습니다. 
 
-![1-1](/Users/imdohyeon/Library/Application Support/typora-user-images/image-20211213164102051.png)우선 명령프롬프트를 열어줍니다. 그 다음 
+![1-1](https://user-images.githubusercontent.com/76457671/145793834-9b13566a-b325-4c1d-bcba-1c031d3b23d7.png)우선 명령프롬프트를 열어줍니다. 그 다음 
 
 curl https://bootstrap.pypa.io/get-pip.py –o get-pip.py를 입력해 줍니다.
 
-![1-2](/Users/imdohyeon/Library/Application Support/typora-user-images/image-20211213164330426.png)
+![1-2](https://user-images.githubusercontent.com/76457671/145793750-ac7d8114-4cf1-4a95-8943-fe8044b83113.png)
 
 그 뒤 python get-pip.py를 입력해줍니다.
 
-![1-3](/Users/imdohyeon/Library/Application Support/typora-user-images/image-20211213164408966.png)
+![1-3](https://user-images.githubusercontent.com/76457671/145793676-54750290-1fd3-4bc2-9cbd-481e7ec7c0e3.png)
 
 이렇게 한 뒤 pip install jupyter notebook을 입력하면 jupyter notebook을 다운받을 수 있습니다. 
 
@@ -63,7 +63,7 @@ curl https://bootstrap.pypa.io/get-pip.py –o get-pip.py를 입력해 줍니다
 
 맥북의 경우 터미널을 연 뒤, sudo easy-install pip을 입력해 다운을 받고,
 
-![2-1](/Users/imdohyeon/Library/Application Support/typora-user-images/image-20211213164433169.png)
+![1-4](https://user-images.githubusercontent.com/76457671/145793476-40dd213e-318a-4b65-b91a-554fbfa2bfde.png)
 
 pip install jupyter notebook을 입력해줍니다.
 
