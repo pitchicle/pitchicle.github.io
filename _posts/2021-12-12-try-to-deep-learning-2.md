@@ -26,7 +26,7 @@ tags: [computer-science]
 
  퍼셉트론은 다수의 신호를 입력으로 받아 하나의 신호를 출력합니다. 여기서 말하는 신호란 전류처럼 흐름이 있는 것을 상상하시면 좋습니다. 전류가 전선을 타고 흐르는 전자를 내보내듯, 퍼셉트론 신호도 흐름을 만드록 정보를 앞으로 전달합니다. 다만, 실제 전류와는 달리 퍼셉트론의 신호는 '흐른다/안흐른다(1이나 0)'의 두 가지 값만을 가질 수 있습니다. 이 시리즈에서는 1을 '신호가 흐른다', 0을 '신호가 흐르지 않는다'로 사용하겠습니다.
 
-![1-1](/Users/imdohyeon/Library/Application Support/typora-user-images/image-20211213171455061.png)
+![1-1](https://user-images.githubusercontent.com/76457671/145796754-bb2b7ca4-3972-4720-bb74-f1b8bd89e188.png)
 
 위의 그림은 2개의 신호를 받은 퍼셉트론의 예입니다. x1, x2는 입력 신호, y는 출력 신호, w1, w2는 가중치를 뜻합니다(w는 weight의 약자입니다). 그림의 원을 뉴런 혹은 노드라고 부릅니다. 입력 신호가 뉴런에 보내질 때는 각각 고유한 가중치가 곱해집니다(w1x1, w2x2). 뉴런에서 보내온 신호의 총합이 정해진 한계를 넘어설 때만 1을 출력합니다(이를 ‘**뉴런이 활성화한다**’라고 표현하기도 합니다). 보통 그 한계를 임계값이라 하며, Θ 기호로 나타냅니다.
 
@@ -42,7 +42,7 @@ tags: [computer-science]
 
 우선 지금까지 한 내용을 수식으로 표현하면 다음과 같습니다.
 
-![1-2](/Users/imdohyeon/Library/Application Support/typora-user-images/image-20211213171559535.png)
+![1-2](https://user-images.githubusercontent.com/76457671/145796879-7f1245d3-4796-49b8-aaf0-9632a56a2f89.png)
 
 퍼셉트론은 복수의 입력 신호 각각에 고유한 가중치를 부여합니다. 가중치는 각 신호가 결과에 주는 영향력을 조절하는 요소로 작용합니다. 즉, 가중치가 클수록 해당 신호가 그만큼 더 중요함을 의미합니다.
 
@@ -54,7 +54,7 @@ tags: [computer-science]
 
 그럼 이제부터 퍼셉트론을 이용한 간단한 문제들을 확인해보도고 하겠습니다. 우선 처음으로 볼 것은 AND 게이트입니다. AND 게이트는 입력이 둘이고 출력은 하나입니다.
 
-![2-1](/Users/imdohyeon/Library/Application Support/typora-user-images/image-20211213171652961.png)
+![2-1](https://user-images.githubusercontent.com/76457671/145797201-f0446a46-786c-4e98-8259-7f00f3e6aebc.png)
 
 위와 같은 입력 신호와 출력 신호의 대응 표를 **진리표**라고 합니다. 이 표는 AND 게이트의 진리표로, 두 입력이 모두 1일 때만 1을 출력하고, 그 외에는 0을 출력합니다. 그렇다면 이 AND 게이트를 퍼셉트론으로 표현하려면 어떻게 표현해야 할까요? 이를 하기 위해서 우리가 할 일은 w1, w2, Θ의 값을 정하는 것입니다. 이를 만족하는 매개변수의 조합을 무한히 많습니다. 예를 몇가지만 들자면 가 (0.5, 0.5, 0.7)일 때, (0.5, 0.5, 0.8), (1.0, 1.0, 1.0)일 때 모두 AND 게이트의 조건을 만족합니다. 매개변수를 이렇게 설정하면 x1, x2 모두가 1일 때만 가중 신호의 총합이 주어진 임계값을 웃돌게 됩니다.
 
@@ -64,7 +64,7 @@ tags: [computer-science]
 
 이어서 NAND 게이트를 먼저 살펴봅시다. NAND는 Not AND를 의미하며 AND 게이트의 출력을 반대로 하면 됩니다. 진리표로 나타내면
 
-![2-2-1](/Users/imdohyeon/Library/Application Support/typora-user-images/image-20211213171740278.png)
+![2-2-1](https://user-images.githubusercontent.com/76457671/145797318-d8cdbe45-0f01-4f10-a9df-509cdb9fc7d0.png)
 
 다음과 같이 x1과 x2가 1일 때만 0을 출력하고 나머지 경우에는 1을 출력합니다. 이런 NAND 게이트를 표현하려면 예를 들어 (w1, w2, Θ) = (-0.5, -0.5, 0.7)와 같은 경우를 생각할 수 있을 것입니다. (사실 AND 게이트에서 매개변수의 부호를 전부 반전하면 NAND 게이트가 됩니다.)
 
@@ -72,7 +72,7 @@ tags: [computer-science]
 
 그 다음으로 알아볼 것은 OR 게이트입니다. OR 게이트는 입력 신호 중 하나라도 1이면 출력이 1이 되는 논리 회로입니다. 우선 진리표는
 
-![2-2-2](/Users/imdohyeon/Library/Application Support/typora-user-images/image-20211213171807565.png)
+![2-2-2](https://user-images.githubusercontent.com/76457671/145797428-90b9772a-f4dd-4c74-8914-e18723d078f2.png)
 
 다음과 같이 나타낼 수 있습니다. 이 OR 게이트의 매개변수는 (w1, w2, Θ) = (1.5, 1.5, 1.0)와 같은 경우를 생각할 수 있을 겁니다.
 
@@ -110,7 +110,7 @@ def AND(x1, x2):
 
  앞에서 구현한 AND 게이트는 직관적이고 알기 쉽지만, 앞으로 배울 신경망 학습을 위해 다른 방식으로 수정하고자 합니다. 위의 식에서 Θ를 -b로 치환하면 퍼셉트론의 동작이 다음과 같은 식으로 됩니다.
 
-![3-2](/Users/imdohyeon/Library/Application Support/typora-user-images/image-20211213172412241.png)
+![3-2](https://user-images.githubusercontent.com/76457671/145797029-f0e0a270-4dc3-4b80-a39a-a28e0de4ba86.png)
 
 위의 식은 기호 표기만 바꿨을 뿐, 그 의미는 같습니다. 이 때, b를 **편향(bias)**라고 합니다. 퍼셉트론은 입력신호에 가중치를 곱한 값과 편향을 합하여, 그 값이 0을 넘으면 1을 출력하고 그렇지 않으면 0을 출력합니다. 그럼 numpy를 이용해서 위의 식으로 구현을 해봅시다.
 
@@ -198,7 +198,7 @@ def OR(x1, x2):
 
 이렇게 3가지 퍼셉트론으로 모든 것을 표현할 수 있었으면 얼마나 좋았을까요... 하지만 이 퍼셉트론도 한계점이 드러나게 되었습니다. 이 한계를 보여준 논리 회로가 바로 **'XOR 게이트'**입니다. XOR 게이트는 배타적 논리합이라는 논리 회로입니다.('배타적'이란 자신 외에는 거부한다는 의미입니다!) 
 
-![4-1](/Users/imdohyeon/Library/Application Support/typora-user-images/image-20211213173712991.png)
+![4-1](https://user-images.githubusercontent.com/76457671/145797560-2644407b-635e-4535-a53b-7ec2e0379064.png)
 
 다음과 같이 x1과 x2 둘 중 하나가 1일 때만 1을 출력합니다. 자, 그럼 이 XOR 게이트를 퍼셉트론으로 구현하려면 가중치 매개변수 값을 어떻게 설정하면 될까요?
 
@@ -208,23 +208,23 @@ def OR(x1, x2):
 
 우선 OR 게이트의 동작을 시각적으로 생각해보겠습니다. OR 게이트는, 예를 들어 가중치 매개변수가 (b, w1, w2) = (-0.5, -1.0, 1.0)일 때 다음과 같은 식으로 표현할 수 있습니다.
 
-![4-2](/Users/imdohyeon/Library/Application Support/typora-user-images/image-20211213173747797.png)
+![4-2](https://user-images.githubusercontent.com/76457671/145797631-b7fa5e24-2ffa-42b2-b606-1ba0999f6f81.png)
 
 위 식의 퍼셉트론은 직선으로 나뉜 두 영역을 만듭니다. 직선으로 나뉜 한쪽 영역은 1을 출력하고 다른 한쪽은 0을 출력합니다. 이를 그려보면 다음과 같습니다.
 
-![4-3](/Users/imdohyeon/Library/Application Support/typora-user-images/image-20211213173808122.png)
+![4-3](https://user-images.githubusercontent.com/76457671/145797666-377b241d-2cf3-4d2f-976d-923e60e3634c.png)
 
 0을 출력하는 곳은 원으로, 1을 출력하는 곳을 삼각형으로 표현하겠습니다. OR 게이트를 만들기 위해선 원과 삼각형을 **'직선'**으로 나눠야 합니다. 실제로 이 그림의 직선은 삼각형과 원을 잘 나누고 있습니다.
 
 그렇다면 XOR 게이트를 볼까요?
 
-![4-4](/Users/imdohyeon/Library/Application Support/typora-user-images/image-20211213173834116.png)
+![4-4](https://user-images.githubusercontent.com/76457671/145797772-339202cd-734e-447a-a973-8c5a0a16a042.png)
 
 어떻습니까? OR 게이트 처럼 직선으로 원과 삼각형을 나누는 영역을 만들 수 있을까요? 이 그림에서 원과 삼각형을 직선 하나로 나누는 방법은 존재하지 않습니다.
 
 직선 하나로는 원과 삼각형을 나눌 수 없습니다. 하지만 '직선'이라는 제약을 없앤다면 가능하게 됩니다. 예를 들어 다음 그림과 같이 나타낼 수 있을 것입니다.
 
-![4-5](/Users/imdohyeon/Library/Application Support/typora-user-images/image-20211213173855048.png)
+![4-5](https://user-images.githubusercontent.com/76457671/145797809-88cf2e6b-abb0-4a0a-8cfd-609e4014a196.png)
 
 퍼셉트론은 직선 하나로 나눈 영역만 표현할 수 있다는 한계가 있습니다. 위의 그림과 같은 곡선은 표현할 수 없다는 것이죠. 추가로 아까 OR 게이트에서 봤던 직선의 영역을 **선형** 영역이라고 하고, XOR 게이트를 설명하며 봤던 곡선의 영역을 **비선형** 영역이라고 합니다. 선형과 비선형을 기계학습 분야에서 자주 쓰이는 용어로, 위의 이미지를 떠올리면 됩니다.
 
@@ -236,13 +236,13 @@ def OR(x1, x2):
 
 XOR 게이트를 만드는 방법은 다양합니다. 그중 하나는 앞서 만든 AND, NAND, OR 게이트를 조합하는 방법입니다. 여기서는 3가지 게이트를 각각 다음과 같이 표현하겠습니다.
 
-![5-1](/Users/imdohyeon/Library/Application Support/typora-user-images/image-20211213174026426.png)
+![5-1](https://user-images.githubusercontent.com/76457671/145797926-acf3bd59-014c-4db7-b350-a9a1b3c3c480.png)
 
 그럼 XOR 게이트를 만들기 위해선 어떻게 게이트들을 조합해야 할까요? 한번 생각해 보세요!
 
 (힌트! 다음 그림의 '?'에 세 가지 게이트를 각각 하나씩 대입하면 XOR 게이트를 만들 수 있습니다!)
 
-![5-2](/Users/imdohyeon/Library/Application Support/typora-user-images/image-20211213174042509.png)
+![5-2](https://user-images.githubusercontent.com/76457671/145797935-41982395-d38a-4a86-8eab-3716bd2452dd.png)
 
 
 
@@ -256,11 +256,11 @@ XOR 게이트를 만드는 방법은 다양합니다. 그중 하나는 앞서 �
 
 한번 생각해 보셨나요? 다음과 같은 조합이면 XOR 게이트를 만들 수 있습니다. x1과 x2가 입력신호, y가 출력 신호입니다. x1과 x2는 NAND와 OR 게이트의 입력이 되고, NAND와 OR의 출력이 AND 게이트의 입력으로 이어지게 됩니다.
 
-![5-3](/Users/imdohyeon/Library/Application Support/typora-user-images/image-20211213174106334.png)
+![5-3](https://user-images.githubusercontent.com/76457671/145797949-6b18e58c-1dbc-4566-97ed-3ce6376030f4.png)
 
 그럼 이 조합이 정말로 XOR 게이트를 구현하는 지 알아보기 위해 진리표를 만들어 보겠습니다. 진리표를 만들면 다음과 같습니다.
 
-![5-4](/Users/imdohyeon/Library/Application Support/typora-user-images/image-20211213174126586.png)
+![5-4](https://user-images.githubusercontent.com/76457671/145798270-c9d952b3-ceb9-483f-8ad0-fdb7db49a2a4.png)
 
 이 진리표를 보면 XOR 게이트와 출력이 같음을 알 수 있습니다.
 
@@ -287,7 +287,7 @@ XOR(1, 1) #0을 출력
 
 이로써 XOR 게이트를 완성했습니다. 지금까지 구현한 XOR을 뉴런을 이용한 퍼셉트론으로 나타내면 다음과 같습니다.
 
-![6](/Users/imdohyeon/Library/Application Support/typora-user-images/image-20211213174449630.png)
+![6](https://user-images.githubusercontent.com/76457671/145798323-bef93e04-1f62-45ab-9ff9-305c78dee01d.png)
 
 지금까지 본 AND, OR 퍼셉트론과 형태가 다릅니다. 실제로 AND, OR가 단층 퍼셉트론인 데 반해 XOR는 2층 퍼셉트론입니다.(가중치를 가지는 층을 기준으로 층의 개수를 셉니다.) 이처럼 층이 여러개인 퍼셉트론을 다층 퍼셉트론 이라고 합니다. 
 
