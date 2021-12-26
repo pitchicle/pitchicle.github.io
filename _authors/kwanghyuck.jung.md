@@ -9,6 +9,10 @@ $S= k \ln W$
 
 - Chungbuk Science High School 32th
 
+- KAIST 22
+
 - Pitchicle Member
 
-- ATOM 32기 부장(副長)
+- Chemistry
+
+twitter at @letranger04_sci
