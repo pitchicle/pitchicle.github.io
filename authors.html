@@ -14,7 +14,7 @@ image: /files/covers/authorpage_cover.jpeg
 
 <!-- Prior Groups -->
 {% for g in authorgroups %}
-	{% if g.name %}
+	{% if g.name == 'true' %}
 		{% assign ag = g.items | group_by: 'order' %}
 		{% for group in ag %}
 			<h1>{{ group.name }}기</h1>
@@ -38,16 +38,16 @@ image: /files/covers/authorpage_cover.jpeg
 	{% endif %}
 {% endfor %}
 
-<br><br>
+<hr>
 
 <!-- non-Prior Groups -->
 {% for g in authorgroups %}
-	{% if g.name %}
+	{% if g.name == 'true' %}
 		{% continue %}
 	{% else %}
 		{% assign ag = g.items | group_by: 'order' %}
 		{% for group in ag %}
-			<h1 style="color:#A0A0A0">{{ group.name }}기</h1>
+			<h1 style="color:#00000080">{{ group.name }}기</h1>
 			<div class="row">
 			{% assign modiauthors = group.items | sort: 'title' %}
 			{% for author in modiauthors %}
