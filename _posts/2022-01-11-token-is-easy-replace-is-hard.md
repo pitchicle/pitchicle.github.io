@@ -115,7 +115,7 @@ NFT, 정확히 무엇인지는 모르더라도 한번쯤은 뉴스와 같은 곳
 
 4)[NBA Top Shot](https://nbatopshot.com/)
 
-5)[훈민정음 해례본 - 조선일보(2021.07.22, 정상혁 기자) - [단독] “훈민정음이 1억원”… NFT 시장 매물로](https://www.chosun.com/culture-life/culture_general/2021/07/22/Q3YMWLDLZJDEHCN7HEHVZWSN4I/)
+5)[훈민정음 해례본 - 조선일보(2021.07.22, 정상혁 기자) - “훈민정음이 1억원”… NFT 시장 매물로](https://www.chosun.com/culture-life/culture_general/2021/07/22/Q3YMWLDLZJDEHCN7HEHVZWSN4I/)
 
 
 
