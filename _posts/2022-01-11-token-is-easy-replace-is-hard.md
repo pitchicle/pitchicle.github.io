@@ -101,7 +101,7 @@ NFT, 정확히 무엇인지는 모르더라도 한번쯤은 뉴스와 같은 곳
 
 [4] 노마드 코더 - [블록체인. 개발자가 쉽게 설명해드림. 10분컷.](https://youtu.be/Ca7Meu4z-F4)
 
-[5] 장동선의 궁금한 뇌 - ['지폐를 대체할 암호 화폐'? 우리가 NFT를 알아야 하는 이유 | 메타버스, 블록체인](https://youtu.be/pH7OKXpNT6U)
+[5] 장동선의 궁금한 뇌 - ['지폐를 대체할 암호 화폐'? 우리가 NFT를 알아야 하는 이유 메타버스, 블록체인](https://youtu.be/pH7OKXpNT6U)
 
 [6] MIT Technology Review - [NFT 열풍: 얼마나 멋지고 얼마나 위험할까?](https://www.technologyreview.kr/nft-%EC%97%B4%ED%92%8D-%EC%96%BC%EB%A7%88%EB%82%98-%EB%A9%8B%EC%A7%80%EA%B3%A0-%EC%96%BC%EB%A7%88%EB%82%98-%EC%9C%84%ED%97%98%ED%95%A0%EA%B9%8C/) - 최은창
 
