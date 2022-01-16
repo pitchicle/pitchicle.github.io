@@ -1,11 +1,11 @@
 ---
-layout:post
+layout: post
 title: '또 다른 하나의 빛, 인공 태양'
 author: subin.nho
-comments : true
-date : 2022-01-14 16:55
-use_math : true
-tags:[physics,engineering]
+comments: true
+date: 2022-01-14 16:55
+use_math: true
+tags: [physics,engineering]
 ---
 
 ## **또 다른 하나의 빛, 인공 태양**
