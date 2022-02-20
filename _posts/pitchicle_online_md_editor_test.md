@@ -1,13 +1,13 @@
 
-      ---
-      layout: post
-      title: 피치클 마크다운 에디터 테스트
-      author: hyunho.choi
-      comments: true
-      date: 2022-02-20 11:58
-      use_math: true
-      tags: [computer-science]
-      ---
+---
+layout: post
+title: 피치클 마크다운 에디터 테스트
+author: hyunho.choi
+comments: true
+date: 2022-02-20 11:58
+use_math: true
+tags: [computer-science]
+---
 
       
 
