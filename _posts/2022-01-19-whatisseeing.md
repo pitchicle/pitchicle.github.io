@@ -3,7 +3,7 @@ layout: post
 title : '본다. 과연 나는 진짜를 보고 있는가.'
 author: sungho.choi
 comments: true
-date: 2021-01-19 13:40
+date: 2022-01-19 13:40
 use_math: true
 tags: [etc,biology]
 ---
