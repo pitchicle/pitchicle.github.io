@@ -5,7 +5,7 @@ author: haewon.son
 comments: true
 date: 21-08-25 07:44
 use_math: true
-tags: [computer-science]
+tags: [computer-science,web]
 ---
 
 **충곽 생활 서포트 웹페이지 제작 일지 1** //33기 손해원
