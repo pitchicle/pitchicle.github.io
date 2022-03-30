@@ -1,6 +1,6 @@
 ---
-name: yeonsu.ahn 
+name: yeonwook.kim
 title: '안연수'
-order: 33
+order: 32
 active: true
 ---
