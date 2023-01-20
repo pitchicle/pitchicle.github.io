@@ -2,6 +2,6 @@
 name: hun.lee
 order: 32
 title: '이훈'
-active: true
+active: false
 ---
 
