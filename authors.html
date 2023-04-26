@@ -15,7 +15,7 @@ image: /files/covers/authorpage_cover.jpeg
 <!-- Prior Groups -->
 {% for g in authorgroups %}
 	{% if g.name == 'true' %}
-		{% assign ag = g.items | group_by: 'order' | sort: '' %}
+		{% assign ag = g.items | sort: 'order' | group_by: 'order' %}
 		{% for group in ag %}
 			<h1>{{ group.name }}기</h1>
 			<div class="row">
