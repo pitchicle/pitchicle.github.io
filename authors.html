@@ -45,7 +45,7 @@ image: /files/covers/authorpage_cover.jpeg
 	{% if g.name == 'true' %}
 		{% continue %}
 	{% else %}
-		{% assign ag = g.items | group_by: 'order' %}
+		{% assign ag = g.items | sort: 'order' | group_by: 'order' %}
 		{% for group in ag %}
 			<h1 style="color:#00000080">{{ group.name }}기</h1>
 			<div class="row">
