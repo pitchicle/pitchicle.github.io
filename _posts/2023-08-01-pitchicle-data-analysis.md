@@ -19,7 +19,7 @@ Pitchicle의 역사를 데이터를 통해 돌아보고자 한다.
 
 Google analytics를 통해 최근 3개월 (2023.05.01 ~ 2023.07.31) 데이터를 살펴보았다.
 
-![페이지 별 조회수-시간 그래프][https://github.com/pitchicle/pitchicle.github.io/assets/54809044/04c752c6-1935-444f-93c6-1df2650088b3]
+![페이지 별 조회수 시간 그래프][https://github.com/pitchicle/pitchicle.github.io/assets/54809044/04c752c6-1935-444f-93c6-1df2650088b3]
 
 가장 조회수가 높은 글은 1418 조회수의 <단백질 전기영동법, SDS-PAGE> 이었다.
 
@@ -42,7 +42,7 @@ Pitchicle에 대한 다른 데이터들도 살펴보자.
 
 ![저자 별 글 수 내림차순 정렬](https://github.com/pitchicle/pitchicle.github.io/assets/54809044/0b31d503-e5f4-439b-a842-53a58d19970a)
 
-![글을 하나도 쓰지 않은 비율](https://github.com/pitchicle/pitchicle.github.io/assets/54809044/6ba95598-cf21-4b14-a45f-0cb0298bbaf6)
+![글 작성 여부 비율](https://github.com/pitchicle/pitchicle.github.io/assets/54809044/6ba95598-cf21-4b14-a45f-0cb0298bbaf6)
 
 ![전체에 대한 저자 별 글 기여율 ; 전체 50개 글에 대한 비율](https://github.com/pitchicle/pitchicle.github.io/assets/54809044/84e13fa4-5252-4b43-89f5-75dff3947022)
 
