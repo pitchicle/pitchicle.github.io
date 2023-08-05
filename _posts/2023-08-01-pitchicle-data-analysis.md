@@ -19,7 +19,7 @@ Pitchicle의 역사를 데이터를 통해 돌아보고자 한다.
 
 Google analytics를 통해 최근 3개월 (2023.05.01 ~ 2023.07.31) 데이터를 살펴보았다.
 
-![페이지 별 조회수 시간 그래프][https://github.com/pitchicle/pitchicle.github.io/assets/54809044/04c752c6-1935-444f-93c6-1df2650088b3]
+![페이지 별 조회수 시간 그래프](https://github.com/pitchicle/pitchicle.github.io/assets/54809044/04c752c6-1935-444f-93c6-1df2650088b3)
 
 가장 조회수가 높은 글은 1418 조회수의 <단백질 전기영동법, SDS-PAGE> 이었다.
 
